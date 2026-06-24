@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>About Us | Ha Bac Garment</title>
-<meta name="description" content="Ha Bac Export Garment JSC, founded 2002 in Bắc Giang Province, ranks among Vietnam's 50 largest garment enterprises and manufactures for Gap, Walmart, Zara, H&amp;M and other global brands." />
+<title data-i18n="about.meta.title">About Us | Ha Bac Garment</title>
+<meta name="description" data-i18n="about.meta.description" data-i18n-attr="content" content="Ha Bac Export Garment JSC, founded 2002 in Bắc Giang Province, ranks among Vietnam's 50 largest garment enterprises and manufactures for Gap, Walmart, Zara, H&amp;M and other global brands." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,8 +14,8 @@
 
 <div class="bg-navy-950 text-slate-300 text-xs">
   <div class="max-w-7xl mx-auto px-6 py-2 flex flex-wrap justify-between items-center gap-2">
-    <p>Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
-    <p>RFQ response within 24&ndash;48 business hours &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
+    <p data-i18n="common.topbar.location">Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
+    <p><span data-i18n="common.topbar.rfq">RFQ response within 24&ndash;48 business hours</span> &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
   </div>
 </div>
 
@@ -25,28 +25,38 @@
       <div class="w-10 h-10 bg-amber-600 flex items-center justify-center font-bold text-white text-lg">HB</div>
       <div class="leading-tight">
         <p class="text-white font-bold text-lg tracking-tight">Ha Bac Garment</p>
-        <p class="text-slate-400 text-[11px] uppercase tracking-widest">OEM Export Manufacturing</p>
+        <p class="text-slate-400 text-[11px] uppercase tracking-widest" data-i18n="common.nav.tagline">OEM Export Manufacturing</p>
       </div>
     </a>
     <div class="hidden lg:flex items-center gap-8">
-      <a href="./index.html" class="nav-link">Home</a>
-      <a href="./about.html" class="nav-link-active">About</a>
-      <a href="./products.html" class="nav-link">Capabilities</a>
-      <a href="./process.html" class="nav-link">Production Process</a>
-      <a href="./certifications.html" class="nav-link">Certifications</a>
-      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm">Request a Quote</a>
+      <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+      <a href="./about.html" class="nav-link-active" data-i18n="common.nav.about">About</a>
+      <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+      <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+      <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+      <div class="flex items-center gap-1">
+        <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+        <span class="text-slate-600">|</span>
+        <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+      </div>
+      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm" data-i18n="common.nav.requestQuote">Request a Quote</a>
     </div>
     <button class="lg:hidden text-white" aria-label="Open menu" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
     </button>
   </nav>
   <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 border-t border-white/10 px-6 py-4 flex flex-col gap-4">
-    <a href="./index.html" class="nav-link">Home</a>
-    <a href="./about.html" class="text-white font-semibold">About</a>
-    <a href="./products.html" class="nav-link">Capabilities</a>
-    <a href="./process.html" class="nav-link">Production Process</a>
-    <a href="./certifications.html" class="nav-link">Certifications</a>
-    <a href="./contact.html" class="nav-link">Contact / RFQ</a>
+    <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+    <a href="./about.html" class="text-white font-semibold" data-i18n="common.nav.about">About</a>
+    <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+    <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+    <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+    <a href="./contact.html" class="nav-link" data-i18n="common.nav.contact">Contact / RFQ</a>
+    <div class="flex items-center gap-2 pt-2 border-t border-white/10">
+      <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+      <span class="text-slate-600">|</span>
+      <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+    </div>
   </div>
 </header>
 
@@ -57,37 +67,37 @@
     <div class="absolute inset-0 bg-navy-950/60"></div>
   </div>
   <div class="relative max-w-7xl mx-auto px-6 py-20">
-    <p class="section-label mb-3">About Ha Bac Garment</p>
-    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl">Two Decades of Manufacturing Discipline</h1>
-    <p class="mt-4 text-slate-300 max-w-2xl">A Bắc Giang-based, export-focused garment manufacturer built for brands that need consistent quality at scale.</p>
+    <p class="section-label mb-3" data-i18n="about.hero.kicker">About Ha Bac Garment</p>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl" data-i18n="about.hero.title">Two Decades of Manufacturing Discipline</h1>
+    <p class="mt-4 text-slate-300 max-w-2xl" data-i18n="about.hero.subtitle">A Bắc Giang-based, export-focused garment manufacturer built for brands that need consistent quality at scale.</p>
   </div>
 </section>
 
 <!-- Overview -->
 <section class="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-start">
   <div>
-    <p class="section-label mb-3">Our Story</p>
-    <h2 class="text-3xl font-bold text-navy-950 mb-6">Founded in 2002, Built for Export</h2>
-    <p class="text-slate-600 mb-4">Công ty Cổ phần May Xuất khẩu Hà Bắc (Ha Bac Export Garment Joint Stock Company) was established in September 2002 in Bắc Giang Province to serve international apparel brands seeking a stable, compliant production base in Vietnam. The company has grown into a two-plant operation employing over 3,000 management staff and skilled workers.</p>
-    <p class="text-slate-600 mb-4">Today we manufacture for major international retailers and fashion brands, with a focus on long-term production partnerships rather than one-off orders. We are ranked among Vietnam's 50 largest garment enterprises and have been recognized as a FAST500 fastest-growing enterprise (2015&ndash;2020) and a 2020 Trustworthy Export Enterprise by Vietnam's Ministry of Industry and Trade.</p>
-    <p class="text-slate-600">Our management team has overseen full-package export production for nearly two decades, building internal systems so customers can audit our facilities with confidence and verify our compliance with international labor and environmental standards.</p>
+    <p class="section-label mb-3" data-i18n="about.story.kicker">Our Story</p>
+    <h2 class="text-3xl font-bold text-navy-950 mb-6" data-i18n="about.story.title">Founded in 2002, Built for Export</h2>
+    <p class="text-slate-600 mb-4" data-i18n="about.story.p1">Công ty Cổ phần May Xuất khẩu Hà Bắc (Ha Bac Export Garment Joint Stock Company) was established in September 2002 in Bắc Giang Province to serve international apparel brands seeking a stable, compliant production base in Vietnam. The company has grown into a two-plant operation employing over 3,000 management staff and skilled workers.</p>
+    <p class="text-slate-600 mb-4" data-i18n="about.story.p2">Today we manufacture for major international retailers and fashion brands, with a focus on long-term production partnerships rather than one-off orders. We are ranked among Vietnam's 50 largest garment enterprises and have been recognized as a FAST500 fastest-growing enterprise (2015&ndash;2020) and a 2020 Trustworthy Export Enterprise by Vietnam's Ministry of Industry and Trade.</p>
+    <p class="text-slate-600" data-i18n="about.story.p3">Our management team has overseen full-package export production for nearly two decades, building internal systems so customers can audit our facilities with confidence and verify our compliance with international labor and environmental standards.</p>
   </div>
   <div class="grid sm:grid-cols-2 gap-6">
     <div class="card">
       <p class="text-3xl font-bold text-navy-950">2002</p>
-      <p class="text-sm text-slate-500 mt-1">Year Founded</p>
+      <p class="text-sm text-slate-500 mt-1" data-i18n="about.story.stat1Label">Year Founded</p>
     </div>
     <div class="card">
       <p class="text-3xl font-bold text-navy-950">3,000+</p>
-      <p class="text-sm text-slate-500 mt-1">Management Staff &amp; Workers</p>
+      <p class="text-sm text-slate-500 mt-1" data-i18n="about.story.stat2Label">Management Staff &amp; Workers</p>
     </div>
     <div class="card">
       <p class="text-3xl font-bold text-navy-950">2</p>
-      <p class="text-sm text-slate-500 mt-1">Plants in Bắc Giang</p>
+      <p class="text-sm text-slate-500 mt-1" data-i18n="about.story.stat3Label">Plants in Bắc Giang</p>
     </div>
     <div class="card">
       <p class="text-3xl font-bold text-navy-950">15+</p>
-      <p class="text-sm text-slate-500 mt-1">Global Brand Partners</p>
+      <p class="text-sm text-slate-500 mt-1" data-i18n="about.story.stat4Label">Global Brand Partners</p>
     </div>
   </div>
 </section>
@@ -95,23 +105,23 @@
 <!-- Facilities -->
 <section class="bg-slate-50 py-20">
   <div class="max-w-7xl mx-auto px-6">
-    <p class="section-label mb-3">Our Facilities</p>
-    <h2 class="text-3xl font-bold text-navy-950 mb-12">Two Plants, One Quality Standard</h2>
+    <p class="section-label mb-3" data-i18n="about.facilities.kicker">Our Facilities</p>
+    <h2 class="text-3xl font-bold text-navy-950 mb-12" data-i18n="about.facilities.title">Two Plants, One Quality Standard</h2>
     <div class="grid md:grid-cols-2 gap-6">
       <div class="bg-white border border-slate-200">
         <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" alt="Plant 1 exterior" class="w-full h-48 object-cover" />
         <div class="p-6">
-          <h3 class="font-bold text-navy-950 mb-2">Plant 1</h3>
-          <p class="text-sm text-slate-600 mb-3">Đình Trám Industrial Area, Hồng Thái Ward, Việt Yên District, Bắc Giang Province &mdash; knit shirts, women's wear and fleece production.</p>
-          <p class="text-xs text-slate-400">Facility specifications and capacity details available during a qualification visit.</p>
+          <h3 class="font-bold text-navy-950 mb-2" data-i18n="about.facilities.plant1Title">Plant 1</h3>
+          <p class="text-sm text-slate-600 mb-3" data-i18n="about.facilities.plant1Desc">Đình Trám Industrial Area, Hồng Thái Ward, Việt Yên District, Bắc Giang Province &mdash; knit shirts, women's wear and fleece production.</p>
+          <p class="text-xs text-slate-400" data-i18n="about.facilities.plant1Note">Facility specifications and capacity details available during a qualification visit.</p>
         </div>
       </div>
       <div class="bg-white border border-slate-200">
         <img src="https://images.unsplash.com/photo-1565084888279-aca607ecce0c?auto=format&fit=crop&w=800&q=80" alt="Plant 2 interior" class="w-full h-48 object-cover" />
         <div class="p-6">
-          <h3 class="font-bold text-navy-950 mb-2">Plant 2</h3>
-          <p class="text-sm text-slate-600 mb-3">Đình Trám Industrial Area, Hồng Thái Ward, Việt Yên District, Bắc Giang Province &mdash; jackets, bottoms and children's wear production.</p>
-          <p class="text-xs text-slate-400">Facility specifications and capacity details available during a qualification visit.</p>
+          <h3 class="font-bold text-navy-950 mb-2" data-i18n="about.facilities.plant2Title">Plant 2</h3>
+          <p class="text-sm text-slate-600 mb-3" data-i18n="about.facilities.plant2Desc">Đình Trám Industrial Area, Hồng Thái Ward, Việt Yên District, Bắc Giang Province &mdash; jackets, bottoms and children's wear production.</p>
+          <p class="text-xs text-slate-400" data-i18n="about.facilities.plant2Note">Facility specifications and capacity details available during a qualification visit.</p>
         </div>
       </div>
     </div>
@@ -120,24 +130,24 @@
 
 <!-- Mission / values -->
 <section class="max-w-7xl mx-auto px-6 py-20">
-  <p class="section-label mb-3">What We Stand For</p>
-  <h2 class="text-3xl font-bold text-navy-950 mb-12">Mission &amp; Operating Values</h2>
+  <p class="section-label mb-3" data-i18n="about.values.kicker">What We Stand For</p>
+  <h2 class="text-3xl font-bold text-navy-950 mb-12" data-i18n="about.values.title">Mission &amp; Operating Values</h2>
   <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
     <div>
-      <h3 class="font-bold text-navy-950 mb-2">Consistency</h3>
-      <p class="text-sm text-slate-600">Standardized SOPs across both plants so a style produced in Plant 1 matches one produced in Plant 2.</p>
+      <h3 class="font-bold text-navy-950 mb-2" data-i18n="about.values.v1Title">Consistency</h3>
+      <p class="text-sm text-slate-600" data-i18n="about.values.v1Desc">Standardized SOPs across both plants so a style produced in Plant 1 matches one produced in Plant 2.</p>
     </div>
     <div>
-      <h3 class="font-bold text-navy-950 mb-2">Transparency</h3>
-      <p class="text-sm text-slate-600">Open-book costing on request and unrestricted access for customer and third-party audits.</p>
+      <h3 class="font-bold text-navy-950 mb-2" data-i18n="about.values.v2Title">Transparency</h3>
+      <p class="text-sm text-slate-600" data-i18n="about.values.v2Desc">Open-book costing on request and unrestricted access for customer and third-party audits.</p>
     </div>
     <div>
-      <h3 class="font-bold text-navy-950 mb-2">Responsible Production</h3>
-      <p class="text-sm text-slate-600">Labor, health and safety, and environmental practices verified through compliance audits conducted by our European and American clients.</p>
+      <h3 class="font-bold text-navy-950 mb-2" data-i18n="about.values.v3Title">Responsible Production</h3>
+      <p class="text-sm text-slate-600" data-i18n="about.values.v3Desc">Labor, health and safety, and environmental practices verified through compliance audits conducted by our European and American clients.</p>
     </div>
     <div>
-      <h3 class="font-bold text-navy-950 mb-2">Long-Term Partnership</h3>
-      <p class="text-sm text-slate-600">We prioritize repeat seasonal programs over one-time orders, dedicating fixed capacity to core accounts.</p>
+      <h3 class="font-bold text-navy-950 mb-2" data-i18n="about.values.v4Title">Long-Term Partnership</h3>
+      <p class="text-sm text-slate-600" data-i18n="about.values.v4Desc">We prioritize repeat seasonal programs over one-time orders, dedicating fixed capacity to core accounts.</p>
     </div>
   </div>
 </section>
@@ -146,14 +156,14 @@
 <section class="bg-navy-950">
   <div class="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
     <div>
-      <p class="section-label mb-3">Compliance</p>
-      <h2 class="text-3xl font-bold text-white mb-6">Trusted by Demanding International Buyers</h2>
-      <p class="text-slate-300 mb-4">Our facilities are certified to the US Customs security standard (verified by ITS) and undergo regular labor, health &amp; safety, and environmental compliance reviews by our European and American clients.</p>
+      <p class="section-label mb-3" data-i18n="about.compliance.kicker">Compliance</p>
+      <h2 class="text-3xl font-bold text-white mb-6" data-i18n="about.compliance.title">Trusted by Demanding International Buyers</h2>
+      <p class="text-slate-300 mb-4" data-i18n="about.compliance.desc">Our facilities are certified to the US Customs security standard (verified by ITS) and undergo regular labor, health &amp; safety, and environmental compliance reviews by our European and American clients.</p>
       <ul class="space-y-3 text-slate-300 text-sm">
-        <li class="flex gap-3"><span class="text-amber-500">&#10003;</span> Among Vietnam's 50 largest garment enterprises</li>
-        <li class="flex gap-3"><span class="text-amber-500">&#10003;</span> VNR500 &mdash; Top 500 Largest Enterprises in Vietnam (2018)</li>
-        <li class="flex gap-3"><span class="text-amber-500">&#10003;</span> FAST500 Fastest-Growing Enterprise, 2015&ndash;2020</li>
-        <li class="flex gap-3"><span class="text-amber-500">&#10003;</span> 2020 Trustworthy Export Enterprise, Ministry of Industry &amp; Trade</li>
+        <li class="flex gap-3"><span class="text-amber-500">&#10003;</span> <span data-i18n="about.compliance.item1">Among Vietnam's 50 largest garment enterprises</span></li>
+        <li class="flex gap-3"><span class="text-amber-500">&#10003;</span> <span data-i18n="about.compliance.item2">VNR500 &mdash; Top 500 Largest Enterprises in Vietnam (2018)</span></li>
+        <li class="flex gap-3"><span class="text-amber-500">&#10003;</span> <span data-i18n="about.compliance.item3">FAST500 Fastest-Growing Enterprise, 2015&ndash;2020</span></li>
+        <li class="flex gap-3"><span class="text-amber-500">&#10003;</span> <span data-i18n="about.compliance.item4">2020 Trustworthy Export Enterprise, Ministry of Industry &amp; Trade</span></li>
       </ul>
     </div>
     <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=80" alt="Fabric rolls in warehouse" class="w-full h-80 object-cover" />
@@ -164,10 +174,10 @@
 <section class="bg-slate-50">
   <div class="max-w-7xl mx-auto px-6 py-16 flex flex-wrap items-center justify-between gap-6">
     <div>
-      <h2 class="text-2xl md:text-3xl font-bold text-navy-950">Want to see our facilities in person?</h2>
-      <p class="text-slate-600 mt-2">We host in-person and virtual factory audits for qualified brand partners.</p>
+      <h2 class="text-2xl md:text-3xl font-bold text-navy-950" data-i18n="about.cta.title">Want to see our facilities in person?</h2>
+      <p class="text-slate-600 mt-2" data-i18n="about.cta.subtitle">We host in-person and virtual factory audits for qualified brand partners.</p>
     </div>
-    <a href="./contact.html" class="btn-outline-navy whitespace-nowrap">Schedule a Visit</a>
+    <a href="./contact.html" class="btn-outline-navy whitespace-nowrap" data-i18n="about.cta.button">Schedule a Visit</a>
   </div>
 </section>
 
@@ -178,19 +188,19 @@
         <div class="w-9 h-9 bg-amber-600 flex items-center justify-center font-bold text-white text-sm">HB</div>
         <p class="text-white font-bold">Ha Bac Garment</p>
       </div>
-      <p>Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
+      <p data-i18n="common.footer.tagline">Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Company</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.companyHeading">Company</p>
       <ul class="space-y-2">
-        <li><a href="./about.html" class="hover:text-white">About Us</a></li>
-        <li><a href="./products.html" class="hover:text-white">Capabilities</a></li>
-        <li><a href="./process.html" class="hover:text-white">Production Process</a></li>
-        <li><a href="./certifications.html" class="hover:text-white">Certifications</a></li>
+        <li><a href="./about.html" class="hover:text-white" data-i18n="common.footer.aboutUs">About Us</a></li>
+        <li><a href="./products.html" class="hover:text-white" data-i18n="common.footer.capabilities">Capabilities</a></li>
+        <li><a href="./process.html" class="hover:text-white" data-i18n="common.footer.process">Production Process</a></li>
+        <li><a href="./certifications.html" class="hover:text-white" data-i18n="common.footer.certifications">Certifications</a></li>
       </ul>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Head Office</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.headOffice">Head Office</p>
       <address class="not-italic space-y-1">
         <p>Đình Trám, Hồng Thái Ward</p>
         <p>Việt Yên District, Bắc Giang Province, Vietnam</p>
@@ -199,18 +209,19 @@
       </address>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Get a Quote</p>
-      <p class="mb-4">Tell us about your style, quantity and timeline.</p>
-      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm">Start an RFQ</a>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.getQuoteHeading">Get a Quote</p>
+      <p class="mb-4" data-i18n="common.footer.getQuoteText">Tell us about your style, quantity and timeline.</p>
+      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm" data-i18n="common.footer.startRfq">Start an RFQ</a>
     </div>
   </div>
   <div class="border-t border-white/10">
     <div class="max-w-7xl mx-auto px-6 py-6 flex flex-wrap justify-between gap-2 text-xs">
-      <p>&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
+      <p data-i18n="common.footer.copyright">&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
       <p>Đình Trám, Việt Yên, Bắc Giang Province, Vietnam</p>
     </div>
   </div>
 </footer>
 
+<script src="./js/i18n.js"></script>
 </body>
 </html>

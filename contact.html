@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Contact &amp; Request a Quote | Ha Bac Garment</title>
-<meta name="description" content="Contact Ha Bac Export Garment JSC or submit an RFQ for garment manufacturing in Bắc Giang, Vietnam. We respond to inquiries within 24-48 business hours." />
+<title data-i18n="contact.meta.title">Contact &amp; Request a Quote | Ha Bac Garment</title>
+<meta name="description" data-i18n="contact.meta.description" data-i18n-attr="content" content="Contact Ha Bac Export Garment JSC or submit an RFQ for garment manufacturing in Bắc Giang, Vietnam. We respond to inquiries within 24-48 business hours." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,8 +14,8 @@
 
 <div class="bg-navy-950 text-slate-300 text-xs">
   <div class="max-w-7xl mx-auto px-6 py-2 flex flex-wrap justify-between items-center gap-2">
-    <p>Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
-    <p>RFQ response within 24&ndash;48 business hours &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
+    <p data-i18n="common.topbar.location">Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
+    <p><span data-i18n="common.topbar.rfq">RFQ response within 24&ndash;48 business hours</span> &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
   </div>
 </div>
 
@@ -25,28 +25,38 @@
       <div class="w-10 h-10 bg-amber-600 flex items-center justify-center font-bold text-white text-lg">HB</div>
       <div class="leading-tight">
         <p class="text-white font-bold text-lg tracking-tight">Ha Bac Garment</p>
-        <p class="text-slate-400 text-[11px] uppercase tracking-widest">OEM Export Manufacturing</p>
+        <p class="text-slate-400 text-[11px] uppercase tracking-widest" data-i18n="common.nav.tagline">OEM Export Manufacturing</p>
       </div>
     </a>
     <div class="hidden lg:flex items-center gap-8">
-      <a href="./index.html" class="nav-link">Home</a>
-      <a href="./about.html" class="nav-link">About</a>
-      <a href="./products.html" class="nav-link">Capabilities</a>
-      <a href="./process.html" class="nav-link">Production Process</a>
-      <a href="./certifications.html" class="nav-link">Certifications</a>
-      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm">Request a Quote</a>
+      <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+      <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+      <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+      <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+      <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+      <div class="flex items-center gap-1">
+        <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+        <span class="text-slate-600">|</span>
+        <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+      </div>
+      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm" data-i18n="common.nav.requestQuote">Request a Quote</a>
     </div>
     <button class="lg:hidden text-white" aria-label="Open menu" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
     </button>
   </nav>
   <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 border-t border-white/10 px-6 py-4 flex flex-col gap-4">
-    <a href="./index.html" class="nav-link">Home</a>
-    <a href="./about.html" class="nav-link">About</a>
-    <a href="./products.html" class="nav-link">Capabilities</a>
-    <a href="./process.html" class="nav-link">Production Process</a>
-    <a href="./certifications.html" class="nav-link">Certifications</a>
-    <a href="./contact.html" class="text-white font-semibold">Contact / RFQ</a>
+    <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+    <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+    <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+    <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+    <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+    <a href="./contact.html" class="text-white font-semibold" data-i18n="common.nav.contact">Contact / RFQ</a>
+    <div class="flex items-center gap-2 pt-2 border-t border-white/10">
+      <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+      <span class="text-slate-600">|</span>
+      <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+    </div>
   </div>
 </header>
 
@@ -56,9 +66,9 @@
     <div class="absolute inset-0 bg-navy-950/60"></div>
   </div>
   <div class="relative max-w-7xl mx-auto px-6 py-20">
-    <p class="section-label mb-3">Contact &amp; RFQ</p>
-    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl">Request a Quote</h1>
-    <p class="mt-4 text-slate-300 max-w-2xl">Share your tech pack and target quantities below. Our merchandising team reviews every submission and responds within 24&ndash;48 business hours.</p>
+    <p class="section-label mb-3" data-i18n="contact.hero.kicker">Contact &amp; RFQ</p>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl" data-i18n="contact.hero.title">Request a Quote</h1>
+    <p class="mt-4 text-slate-300 max-w-2xl" data-i18n="contact.hero.subtitle">Share your tech pack and target quantities below. Our merchandising team reviews every submission and responds within 24&ndash;48 business hours.</p>
   </div>
 </section>
 
@@ -66,106 +76,106 @@
 
   <!-- RFQ Form -->
   <div>
-    <h2 class="text-2xl font-bold text-navy-950 mb-2">Submit an RFQ</h2>
-    <p class="text-sm text-slate-500 mb-8">Fields marked with an asterisk (*) are required. This form currently submits to a placeholder endpoint &mdash; connect it to Formspree, Netlify Forms or your CRM before launch.</p>
+    <h2 class="text-2xl font-bold text-navy-950 mb-2" data-i18n="contact.form.heading">Submit an RFQ</h2>
+    <p class="text-sm text-slate-500 mb-8" data-i18n="contact.form.note">Fields marked with an asterisk (*) are required. This form currently submits to a placeholder endpoint &mdash; connect it to Formspree, Netlify Forms or your CRM before launch.</p>
 
     <form action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST" class="space-y-6" enctype="multipart/form-data">
       <div class="grid sm:grid-cols-2 gap-6">
         <div>
-          <label for="company" class="block text-sm font-semibold text-navy-950 mb-1.5">Company Name *</label>
+          <label for="company" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.companyLabel">Company Name *</label>
           <input type="text" id="company" name="company" required class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
         </div>
         <div>
-          <label for="contact_person" class="block text-sm font-semibold text-navy-950 mb-1.5">Contact Person *</label>
+          <label for="contact_person" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.contactPersonLabel">Contact Person *</label>
           <input type="text" id="contact_person" name="contact_person" required class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
         </div>
       </div>
 
       <div class="grid sm:grid-cols-2 gap-6">
         <div>
-          <label for="email" class="block text-sm font-semibold text-navy-950 mb-1.5">Email *</label>
+          <label for="email" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.emailLabel">Email *</label>
           <input type="email" id="email" name="email" required class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
         </div>
         <div>
-          <label for="phone" class="block text-sm font-semibold text-navy-950 mb-1.5">Phone / WhatsApp</label>
+          <label for="phone" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.phoneLabel">Phone / WhatsApp</label>
           <input type="tel" id="phone" name="phone" class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
         </div>
       </div>
 
       <div class="grid sm:grid-cols-2 gap-6">
         <div>
-          <label for="country" class="block text-sm font-semibold text-navy-950 mb-1.5">Country *</label>
-          <input type="text" id="country" name="country" required placeholder="e.g. United States" class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
+          <label for="country" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.countryLabel">Country *</label>
+          <input type="text" id="country" name="country" required placeholder="e.g. United States" data-i18n="contact.form.countryPlaceholder" data-i18n-attr="placeholder" class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
         </div>
         <div>
-          <label for="category" class="block text-sm font-semibold text-navy-950 mb-1.5">Product Category *</label>
+          <label for="category" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.categoryLabel">Product Category *</label>
           <select id="category" name="product_category" required class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 bg-white">
-            <option value="">Select a category</option>
-            <option>Knit Shirts</option>
-            <option>Women's Shirts</option>
-            <option>Jackets</option>
-            <option>Fleece &amp; Sweatshirts</option>
-            <option>Pants, Shorts &amp; Skirts</option>
-            <option>Children's Wear</option>
-            <option>Other</option>
+            <option value="" data-i18n="contact.form.categorySelect">Select a category</option>
+            <option data-i18n="contact.form.categoryOpt1">Knit Shirts</option>
+            <option data-i18n="contact.form.categoryOpt2">Women's Shirts</option>
+            <option data-i18n="contact.form.categoryOpt3">Jackets</option>
+            <option data-i18n="contact.form.categoryOpt4">Fleece &amp; Sweatshirts</option>
+            <option data-i18n="contact.form.categoryOpt5">Pants, Shorts &amp; Skirts</option>
+            <option data-i18n="contact.form.categoryOpt6">Children's Wear</option>
+            <option data-i18n="contact.form.categoryOpt7">Other</option>
           </select>
         </div>
       </div>
 
       <div class="grid sm:grid-cols-2 gap-6">
         <div>
-          <label for="quantity" class="block text-sm font-semibold text-navy-950 mb-1.5">Order Quantity (units) *</label>
-          <input type="text" id="quantity" name="quantity" required placeholder="e.g. 5,000 pcs / style-color" class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
+          <label for="quantity" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.quantityLabel">Order Quantity (units) *</label>
+          <input type="text" id="quantity" name="quantity" required placeholder="e.g. 5,000 pcs / style-color" data-i18n="contact.form.quantityPlaceholder" data-i18n-attr="placeholder" class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
         </div>
         <div>
-          <label for="target_price" class="block text-sm font-semibold text-navy-950 mb-1.5">Target FOB Price (optional)</label>
-          <input type="text" id="target_price" name="target_price" placeholder="e.g. USD 6.50 / unit" class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
+          <label for="target_price" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.targetPriceLabel">Target FOB Price (optional)</label>
+          <input type="text" id="target_price" name="target_price" placeholder="e.g. USD 6.50 / unit" data-i18n="contact.form.targetPricePlaceholder" data-i18n-attr="placeholder" class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500" />
         </div>
       </div>
 
       <div>
-        <label for="tech_pack" class="block text-sm font-semibold text-navy-950 mb-1.5">Tech Pack / Reference Files</label>
+        <label for="tech_pack" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.techPackLabel">Tech Pack / Reference Files</label>
         <input type="file" id="tech_pack" name="tech_pack" multiple class="w-full border border-slate-300 px-4 py-2.5 text-sm file:mr-4 file:py-1.5 file:px-3 file:border-0 file:bg-slate-100 file:text-slate-700 file:font-medium" />
-        <p class="text-xs text-slate-500 mt-1">PDF, AI, or image files. Max 10MB per file.</p>
+        <p class="text-xs text-slate-500 mt-1" data-i18n="contact.form.techPackNote">PDF, AI, or image files. Max 10MB per file.</p>
       </div>
 
       <div>
-        <label for="message" class="block text-sm font-semibold text-navy-950 mb-1.5">Project Details *</label>
-        <textarea id="message" name="message" rows="5" required placeholder="Fabric type, construction details, target delivery date, any compliance requirements..." class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500"></textarea>
+        <label for="message" class="block text-sm font-semibold text-navy-950 mb-1.5" data-i18n="contact.form.messageLabel">Project Details *</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Fabric type, construction details, target delivery date, any compliance requirements..." data-i18n="contact.form.messagePlaceholder" data-i18n-attr="placeholder" class="w-full border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500"></textarea>
       </div>
 
-      <button type="submit" class="btn-primary w-full sm:w-auto">Submit RFQ</button>
+      <button type="submit" class="btn-primary w-full sm:w-auto" data-i18n="contact.form.submit">Submit RFQ</button>
     </form>
   </div>
 
   <!-- Contact info -->
   <div class="space-y-8">
     <div class="card">
-      <h3 class="font-bold text-navy-950 mb-4">Head Office</h3>
+      <h3 class="font-bold text-navy-950 mb-4" data-i18n="contact.info.headOfficeTitle">Head Office</h3>
       <address class="not-italic text-sm text-slate-600 space-y-1">
         <p>Đình Trám, Hồng Thái Ward</p>
         <p>Việt Yên District, Bắc Giang Province, Vietnam</p>
         <p class="pt-3"><a href="mailto:garcohabac@garcohabac.com" class="text-navy-900 font-semibold hover:text-amber-600">garcohabac@garcohabac.com</a></p>
         <p><a href="tel:+842403674178" class="text-navy-900 font-semibold hover:text-amber-600">+84 240 3674 178</a></p>
-        <p class="text-slate-500">Fax: +84 240 3866 978</p>
+        <p class="text-slate-500" data-i18n="contact.info.faxLabel">Fax: +84 240 3866 978</p>
       </address>
     </div>
 
     <div class="card">
-      <h3 class="font-bold text-navy-950 mb-4">Factory Locations</h3>
+      <h3 class="font-bold text-navy-950 mb-4" data-i18n="contact.info.factoryLocationsTitle">Factory Locations</h3>
       <ul class="text-sm text-slate-600 space-y-3">
-        <li><span class="font-semibold text-navy-950">Plant 1:</span> Đình Trám Industrial Area &mdash; knit shirts, women's wear, fleece</li>
-        <li><span class="font-semibold text-navy-950">Plant 2:</span> Đình Trám Industrial Area &mdash; jackets, bottoms, children's wear</li>
+        <li><span class="font-semibold text-navy-950" data-i18n="contact.info.plant1Label">Plant 1:</span> <span data-i18n="contact.info.plant1Text">Đình Trám Industrial Area &mdash; knit shirts, women's wear, fleece</span></li>
+        <li><span class="font-semibold text-navy-950" data-i18n="contact.info.plant2Label">Plant 2:</span> <span data-i18n="contact.info.plant2Text">Đình Trám Industrial Area &mdash; jackets, bottoms, children's wear</span></li>
       </ul>
     </div>
 
     <div class="card">
-      <h3 class="font-bold text-navy-950 mb-4">Response Time</h3>
-      <p class="text-sm text-slate-600">Our merchandising team reviews RFQs Monday&ndash;Saturday and responds within 24&ndash;48 business hours with clarifying questions or a preliminary costing timeline.</p>
-      <p class="text-sm text-slate-600 mt-3">Office Hours: 8:00&ndash;17:30 ICT (GMT+7), Mon&ndash;Sat</p>
+      <h3 class="font-bold text-navy-950 mb-4" data-i18n="contact.info.responseTimeTitle">Response Time</h3>
+      <p class="text-sm text-slate-600" data-i18n="contact.info.responseTimeText">Our merchandising team reviews RFQs Monday&ndash;Saturday and responds within 24&ndash;48 business hours with clarifying questions or a preliminary costing timeline.</p>
+      <p class="text-sm text-slate-600 mt-3" data-i18n="contact.info.officeHours">Office Hours: 8:00&ndash;17:30 ICT (GMT+7), Mon&ndash;Sat</p>
     </div>
 
-    <div class="bg-slate-100 border border-slate-200 h-56 flex items-center justify-center text-slate-400 text-sm">
+    <div class="bg-slate-100 border border-slate-200 h-56 flex items-center justify-center text-slate-400 text-sm" data-i18n="contact.info.mapLabel">
       Map: Đình Trám Industrial Area, Việt Yên, Bắc Giang
     </div>
   </div>
@@ -178,19 +188,19 @@
         <div class="w-9 h-9 bg-amber-600 flex items-center justify-center font-bold text-white text-sm">HB</div>
         <p class="text-white font-bold">Ha Bac Garment</p>
       </div>
-      <p>Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
+      <p data-i18n="common.footer.tagline">Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Company</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.companyHeading">Company</p>
       <ul class="space-y-2">
-        <li><a href="./about.html" class="hover:text-white">About Us</a></li>
-        <li><a href="./products.html" class="hover:text-white">Capabilities</a></li>
-        <li><a href="./process.html" class="hover:text-white">Production Process</a></li>
-        <li><a href="./certifications.html" class="hover:text-white">Certifications</a></li>
+        <li><a href="./about.html" class="hover:text-white" data-i18n="common.footer.aboutUs">About Us</a></li>
+        <li><a href="./products.html" class="hover:text-white" data-i18n="common.footer.capabilities">Capabilities</a></li>
+        <li><a href="./process.html" class="hover:text-white" data-i18n="common.footer.process">Production Process</a></li>
+        <li><a href="./certifications.html" class="hover:text-white" data-i18n="common.footer.certifications">Certifications</a></li>
       </ul>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Head Office</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.headOffice">Head Office</p>
       <address class="not-italic space-y-1">
         <p>Đình Trám, Hồng Thái Ward</p>
         <p>Việt Yên District, Bắc Giang Province, Vietnam</p>
@@ -199,18 +209,19 @@
       </address>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Get a Quote</p>
-      <p class="mb-4">Tell us about your style, quantity and timeline.</p>
-      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm">Start an RFQ</a>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.getQuoteHeading">Get a Quote</p>
+      <p class="mb-4" data-i18n="common.footer.getQuoteText">Tell us about your style, quantity and timeline.</p>
+      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm" data-i18n="common.footer.startRfq">Start an RFQ</a>
     </div>
   </div>
   <div class="border-t border-white/10">
     <div class="max-w-7xl mx-auto px-6 py-6 flex flex-wrap justify-between gap-2 text-xs">
-      <p>&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
+      <p data-i18n="common.footer.copyright">&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
       <p>Đình Trám, Việt Yên, Bắc Giang Province, Vietnam</p>
     </div>
   </div>
 </footer>
 
+<script src="./js/i18n.js"></script>
 </body>
 </html>

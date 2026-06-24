@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Production Process | Ha Bac Garment</title>
-<meta name="description" content="A step-by-step view of Ha Bac Export Garment's production process, quality control standards and typical lead times." />
+<title data-i18n="process.meta.title">Production Process | Ha Bac Garment</title>
+<meta name="description" data-i18n="process.meta.description" data-i18n-attr="content" content="A step-by-step view of Ha Bac Export Garment's production process, quality control standards and typical lead times." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,8 +14,8 @@
 
 <div class="bg-navy-950 text-slate-300 text-xs">
   <div class="max-w-7xl mx-auto px-6 py-2 flex flex-wrap justify-between items-center gap-2">
-    <p>Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
-    <p>RFQ response within 24&ndash;48 business hours &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
+    <p data-i18n="common.topbar.location">Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
+    <p><span data-i18n="common.topbar.rfq">RFQ response within 24&ndash;48 business hours</span> &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
   </div>
 </div>
 
@@ -25,28 +25,38 @@
       <div class="w-10 h-10 bg-amber-600 flex items-center justify-center font-bold text-white text-lg">HB</div>
       <div class="leading-tight">
         <p class="text-white font-bold text-lg tracking-tight">Ha Bac Garment</p>
-        <p class="text-slate-400 text-[11px] uppercase tracking-widest">OEM Export Manufacturing</p>
+        <p class="text-slate-400 text-[11px] uppercase tracking-widest" data-i18n="common.nav.tagline">OEM Export Manufacturing</p>
       </div>
     </a>
     <div class="hidden lg:flex items-center gap-8">
-      <a href="./index.html" class="nav-link">Home</a>
-      <a href="./about.html" class="nav-link">About</a>
-      <a href="./products.html" class="nav-link">Capabilities</a>
-      <a href="./process.html" class="nav-link-active">Production Process</a>
-      <a href="./certifications.html" class="nav-link">Certifications</a>
-      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm">Request a Quote</a>
+      <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+      <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+      <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+      <a href="./process.html" class="nav-link-active" data-i18n="common.nav.process">Production Process</a>
+      <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+      <div class="flex items-center gap-1">
+        <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+        <span class="text-slate-600">|</span>
+        <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+      </div>
+      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm" data-i18n="common.nav.requestQuote">Request a Quote</a>
     </div>
     <button class="lg:hidden text-white" aria-label="Open menu" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
     </button>
   </nav>
   <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 border-t border-white/10 px-6 py-4 flex flex-col gap-4">
-    <a href="./index.html" class="nav-link">Home</a>
-    <a href="./about.html" class="nav-link">About</a>
-    <a href="./products.html" class="nav-link">Capabilities</a>
-    <a href="./process.html" class="text-white font-semibold">Production Process</a>
-    <a href="./certifications.html" class="nav-link">Certifications</a>
-    <a href="./contact.html" class="nav-link">Contact / RFQ</a>
+    <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+    <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+    <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+    <a href="./process.html" class="text-white font-semibold" data-i18n="common.nav.process">Production Process</a>
+    <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+    <a href="./contact.html" class="nav-link" data-i18n="common.nav.contact">Contact / RFQ</a>
+    <div class="flex items-center gap-2 pt-2 border-t border-white/10">
+      <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+      <span class="text-slate-600">|</span>
+      <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+    </div>
   </div>
 </header>
 
@@ -56,9 +66,9 @@
     <div class="absolute inset-0 bg-navy-950/60"></div>
   </div>
   <div class="relative max-w-7xl mx-auto px-6 py-20">
-    <p class="section-label mb-3">Production Process</p>
-    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl">From Tech Pack to Shipped Container</h1>
-    <p class="mt-4 text-slate-300 max-w-2xl">A documented, repeatable process designed to give brand partners visibility at every stage.</p>
+    <p class="section-label mb-3" data-i18n="process.hero.kicker">Production Process</p>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl" data-i18n="process.hero.title">From Tech Pack to Shipped Container</h1>
+    <p class="mt-4 text-slate-300 max-w-2xl" data-i18n="process.hero.subtitle">A documented, repeatable process designed to give brand partners visibility at every stage.</p>
   </div>
 </section>
 
@@ -69,64 +79,64 @@
     <div class="grid md:grid-cols-[80px_1fr] gap-6">
       <div class="text-3xl font-bold text-amber-600">01</div>
       <div class="border-l border-slate-200 pl-6 pb-10">
-        <h3 class="text-xl font-bold text-navy-950 mb-2">Inquiry &amp; Tech Pack Review</h3>
-        <p class="text-slate-600">Submit your tech pack, target quantity and timeline via our RFQ form. Our merchandising team reviews construction, fabric and trim requirements and follows up with clarifying questions within 24&ndash;48 hours.</p>
+        <h3 class="text-xl font-bold text-navy-950 mb-2" data-i18n="process.steps.step1Title">Inquiry &amp; Tech Pack Review</h3>
+        <p class="text-slate-600" data-i18n="process.steps.step1Desc">Submit your tech pack, target quantity and timeline via our RFQ form. Our merchandising team reviews construction, fabric and trim requirements and follows up with clarifying questions within 24&ndash;48 hours.</p>
       </div>
     </div>
 
     <div class="grid md:grid-cols-[80px_1fr] gap-6">
       <div class="text-3xl font-bold text-amber-600">02</div>
       <div class="border-l border-slate-200 pl-6 pb-10">
-        <h3 class="text-xl font-bold text-navy-950 mb-2">Sampling &amp; Costing</h3>
-        <p class="text-slate-600">Proto and fit samples are produced and costed transparently, with line-item breakdowns for fabric, trim, labor and overhead. Typical sample turnaround is 7&ndash;10 working days.</p>
+        <h3 class="text-xl font-bold text-navy-950 mb-2" data-i18n="process.steps.step2Title">Sampling &amp; Costing</h3>
+        <p class="text-slate-600" data-i18n="process.steps.step2Desc">Proto and fit samples are produced and costed transparently, with line-item breakdowns for fabric, trim, labor and overhead. Typical sample turnaround is 7&ndash;10 working days.</p>
       </div>
     </div>
 
     <div class="grid md:grid-cols-[80px_1fr] gap-6">
       <div class="text-3xl font-bold text-amber-600">03</div>
       <div class="border-l border-slate-200 pl-6 pb-10">
-        <h3 class="text-xl font-bold text-navy-950 mb-2">Material Sourcing &amp; Approval</h3>
-        <p class="text-slate-600">Fabric and trims are sourced from our network of approved mills. Lab dips, strike-offs and bulk fabric inspection reports are shared for sign-off before cutting begins.</p>
+        <h3 class="text-xl font-bold text-navy-950 mb-2" data-i18n="process.steps.step3Title">Material Sourcing &amp; Approval</h3>
+        <p class="text-slate-600" data-i18n="process.steps.step3Desc">Fabric and trims are sourced from our network of approved mills. Lab dips, strike-offs and bulk fabric inspection reports are shared for sign-off before cutting begins.</p>
       </div>
     </div>
 
     <div class="grid md:grid-cols-[80px_1fr] gap-6">
       <div class="text-3xl font-bold text-amber-600">04</div>
       <div class="border-l border-slate-200 pl-6 pb-10">
-        <h3 class="text-xl font-bold text-navy-950 mb-2">Bulk Order Confirmation &amp; PO</h3>
-        <p class="text-slate-600">Pre-production (PP) sample approval, purchase order confirmation, and production scheduling against our line capacity.</p>
+        <h3 class="text-xl font-bold text-navy-950 mb-2" data-i18n="process.steps.step4Title">Bulk Order Confirmation &amp; PO</h3>
+        <p class="text-slate-600" data-i18n="process.steps.step4Desc">Pre-production (PP) sample approval, purchase order confirmation, and production scheduling against our line capacity.</p>
       </div>
     </div>
 
     <div class="grid md:grid-cols-[80px_1fr] gap-6">
       <div class="text-3xl font-bold text-amber-600">05</div>
       <div class="border-l border-slate-200 pl-6 pb-10">
-        <h3 class="text-xl font-bold text-navy-950 mb-2">Cutting, Sewing &amp; Assembly</h3>
-        <p class="text-slate-600">Computerized multi-ply cutting followed by modular line sewing, with in-line quality checks at each work station rather than only at the end of the line.</p>
+        <h3 class="text-xl font-bold text-navy-950 mb-2" data-i18n="process.steps.step5Title">Cutting, Sewing &amp; Assembly</h3>
+        <p class="text-slate-600" data-i18n="process.steps.step5Desc">Computerized multi-ply cutting followed by modular line sewing, with in-line quality checks at each work station rather than only at the end of the line.</p>
       </div>
     </div>
 
     <div class="grid md:grid-cols-[80px_1fr] gap-6">
       <div class="text-3xl font-bold text-amber-600">06</div>
       <div class="border-l border-slate-200 pl-6 pb-10">
-        <h3 class="text-xl font-bold text-navy-950 mb-2">Washing &amp; Finishing</h3>
-        <p class="text-slate-600">Garment dye and pressing/finishing as required by style, followed by trimming and thread cleaning.</p>
+        <h3 class="text-xl font-bold text-navy-950 mb-2" data-i18n="process.steps.step6Title">Washing &amp; Finishing</h3>
+        <p class="text-slate-600" data-i18n="process.steps.step6Desc">Garment dye and pressing/finishing as required by style, followed by trimming and thread cleaning.</p>
       </div>
     </div>
 
     <div class="grid md:grid-cols-[80px_1fr] gap-6">
       <div class="text-3xl font-bold text-amber-600">07</div>
       <div class="border-l border-slate-200 pl-6 pb-10">
-        <h3 class="text-xl font-bold text-navy-950 mb-2">Quality Control &amp; Final Inspection</h3>
-        <p class="text-slate-600">100% inline inspection plus AQL 2.5 final random inspection. Customer-nominated or third-party inspectors are welcomed for pre-shipment inspection.</p>
+        <h3 class="text-xl font-bold text-navy-950 mb-2" data-i18n="process.steps.step7Title">Quality Control &amp; Final Inspection</h3>
+        <p class="text-slate-600" data-i18n="process.steps.step7Desc">100% inline inspection plus AQL 2.5 final random inspection. Customer-nominated or third-party inspectors are welcomed for pre-shipment inspection.</p>
       </div>
     </div>
 
     <div class="grid md:grid-cols-[80px_1fr] gap-6">
       <div class="text-3xl font-bold text-amber-600">08</div>
       <div class="pl-6">
-        <h3 class="text-xl font-bold text-navy-950 mb-2">Packing, Labeling &amp; Shipping</h3>
-        <p class="text-slate-600">Retail-ready folding, polybagging and carton packing per your packing list, with FOB, CIF or DDP shipment booked through Hai Phong port.</p>
+        <h3 class="text-xl font-bold text-navy-950 mb-2" data-i18n="process.steps.step8Title">Packing, Labeling &amp; Shipping</h3>
+        <p class="text-slate-600" data-i18n="process.steps.step8Desc">Retail-ready folding, polybagging and carton packing per your packing list, with FOB, CIF or DDP shipment booked through Hai Phong port.</p>
       </div>
     </div>
 
@@ -137,18 +147,18 @@
 <section class="bg-slate-50 py-20">
   <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12">
     <div>
-      <p class="section-label mb-3">Quality Control</p>
-      <h2 class="text-3xl font-bold text-navy-950 mb-6">Inspection Standards</h2>
-      <p class="text-slate-600 mb-4">Every order passes through three checkpoints: inline inspection during sewing, end-of-line inspection before finishing, and a final randomized AQL 2.5 inspection prior to packing.</p>
-      <p class="text-slate-600">We maintain detailed inspection records per PO and provide inspection reports to customers on request. Customer or third-party inspectors may attend any stage with advance notice.</p>
+      <p class="section-label mb-3" data-i18n="process.qc.kicker">Quality Control</p>
+      <h2 class="text-3xl font-bold text-navy-950 mb-6" data-i18n="process.qc.title">Inspection Standards</h2>
+      <p class="text-slate-600 mb-4" data-i18n="process.qc.p1">Every order passes through three checkpoints: inline inspection during sewing, end-of-line inspection before finishing, and a final randomized AQL 2.5 inspection prior to packing.</p>
+      <p class="text-slate-600" data-i18n="process.qc.p2">We maintain detailed inspection records per PO and provide inspection reports to customers on request. Customer or third-party inspectors may attend any stage with advance notice.</p>
     </div>
     <div class="bg-white border border-slate-200 p-8">
-      <h3 class="font-bold text-navy-950 mb-4">Inspection Checkpoints</h3>
+      <h3 class="font-bold text-navy-950 mb-4" data-i18n="process.qc.checkpointsTitle">Inspection Checkpoints</h3>
       <ul class="space-y-4 text-sm">
-        <li class="flex gap-3"><span class="text-amber-600 font-bold">&bull;</span><span><span class="font-semibold text-navy-950">Inline (DHU):</span> Defects-per-hundred-units tracked per line, per hour.</span></li>
-        <li class="flex gap-3"><span class="text-amber-600 font-bold">&bull;</span><span><span class="font-semibold text-navy-950">End-of-line:</span> 100% garment check before wash/finish.</span></li>
-        <li class="flex gap-3"><span class="text-amber-600 font-bold">&bull;</span><span><span class="font-semibold text-navy-950">Final random (AQL 2.5):</span> Per ISO 2859-1 sampling tables.</span></li>
-        <li class="flex gap-3"><span class="text-amber-600 font-bold">&bull;</span><span><span class="font-semibold text-navy-950">Pre-shipment:</span> Customer/third-party inspection accommodated.</span></li>
+        <li class="flex gap-3"><span class="text-amber-600 font-bold">&bull;</span><span><span class="font-semibold text-navy-950" data-i18n="process.qc.cp1Label">Inline (DHU):</span> <span data-i18n="process.qc.cp1Text">Defects-per-hundred-units tracked per line, per hour.</span></span></li>
+        <li class="flex gap-3"><span class="text-amber-600 font-bold">&bull;</span><span><span class="font-semibold text-navy-950" data-i18n="process.qc.cp2Label">End-of-line:</span> <span data-i18n="process.qc.cp2Text">100% garment check before wash/finish.</span></span></li>
+        <li class="flex gap-3"><span class="text-amber-600 font-bold">&bull;</span><span><span class="font-semibold text-navy-950" data-i18n="process.qc.cp3Label">Final random (AQL 2.5):</span> <span data-i18n="process.qc.cp3Text">Per ISO 2859-1 sampling tables.</span></span></li>
+        <li class="flex gap-3"><span class="text-amber-600 font-bold">&bull;</span><span><span class="font-semibold text-navy-950" data-i18n="process.qc.cp4Label">Pre-shipment:</span> <span data-i18n="process.qc.cp4Text">Customer/third-party inspection accommodated.</span></span></li>
       </ul>
     </div>
   </div>
@@ -156,37 +166,37 @@
 
 <!-- Lead times -->
 <section class="max-w-7xl mx-auto px-6 py-20">
-  <p class="section-label mb-3">Planning</p>
-  <h2 class="text-3xl font-bold text-navy-950 mb-12">Typical Lead Times</h2>
+  <p class="section-label mb-3" data-i18n="process.leadtimes.kicker">Planning</p>
+  <h2 class="text-3xl font-bold text-navy-950 mb-12" data-i18n="process.leadtimes.title">Typical Lead Times</h2>
   <div class="overflow-x-auto border border-slate-200">
     <table class="w-full text-sm text-left">
       <thead class="bg-navy-900 text-white">
         <tr>
-          <th class="px-6 py-4 font-semibold">Stage</th>
-          <th class="px-6 py-4 font-semibold">Basics (Knit/Woven)</th>
-          <th class="px-6 py-4 font-semibold">Outerwear / Technical</th>
+          <th class="px-6 py-4 font-semibold" data-i18n="process.leadtimes.thStage">Stage</th>
+          <th class="px-6 py-4 font-semibold" data-i18n="process.leadtimes.thBasics">Basics (Knit/Woven)</th>
+          <th class="px-6 py-4 font-semibold" data-i18n="process.leadtimes.thOuterwear">Outerwear / Technical</th>
         </tr>
       </thead>
       <tbody class="divide-y divide-slate-200">
-        <tr class="bg-white"><td class="px-6 py-4 font-medium text-navy-950">Proto / fit sample</td><td class="px-6 py-4">7&ndash;10 days</td><td class="px-6 py-4">10&ndash;14 days</td></tr>
-        <tr class="bg-slate-50"><td class="px-6 py-4 font-medium text-navy-950">PP sample &amp; approval</td><td class="px-6 py-4">5&ndash;7 days</td><td class="px-6 py-4">7&ndash;10 days</td></tr>
-        <tr class="bg-white"><td class="px-6 py-4 font-medium text-navy-950">Material sourcing &amp; approval</td><td class="px-6 py-4">15&ndash;20 days</td><td class="px-6 py-4">20&ndash;30 days</td></tr>
-        <tr class="bg-slate-50"><td class="px-6 py-4 font-medium text-navy-950">Bulk production</td><td class="px-6 py-4">25&ndash;35 days</td><td class="px-6 py-4">35&ndash;45 days</td></tr>
-        <tr class="bg-white"><td class="px-6 py-4 font-medium text-navy-950">QC &amp; packing</td><td class="px-6 py-4">3&ndash;5 days</td><td class="px-6 py-4">5&ndash;7 days</td></tr>
-        <tr class="bg-slate-50"><td class="px-6 py-4 font-bold text-navy-950">Total (ex-factory)</td><td class="px-6 py-4 font-bold">75&ndash;90 days</td><td class="px-6 py-4 font-bold">95&ndash;115 days</td></tr>
+        <tr class="bg-white"><td class="px-6 py-4 font-medium text-navy-950" data-i18n="process.leadtimes.row1Label">Proto / fit sample</td><td class="px-6 py-4">7&ndash;10 days</td><td class="px-6 py-4">10&ndash;14 days</td></tr>
+        <tr class="bg-slate-50"><td class="px-6 py-4 font-medium text-navy-950" data-i18n="process.leadtimes.row2Label">PP sample &amp; approval</td><td class="px-6 py-4">5&ndash;7 days</td><td class="px-6 py-4">7&ndash;10 days</td></tr>
+        <tr class="bg-white"><td class="px-6 py-4 font-medium text-navy-950" data-i18n="process.leadtimes.row3Label">Material sourcing &amp; approval</td><td class="px-6 py-4">15&ndash;20 days</td><td class="px-6 py-4">20&ndash;30 days</td></tr>
+        <tr class="bg-slate-50"><td class="px-6 py-4 font-medium text-navy-950" data-i18n="process.leadtimes.row4Label">Bulk production</td><td class="px-6 py-4">25&ndash;35 days</td><td class="px-6 py-4">35&ndash;45 days</td></tr>
+        <tr class="bg-white"><td class="px-6 py-4 font-medium text-navy-950" data-i18n="process.leadtimes.row5Label">QC &amp; packing</td><td class="px-6 py-4">3&ndash;5 days</td><td class="px-6 py-4">5&ndash;7 days</td></tr>
+        <tr class="bg-slate-50"><td class="px-6 py-4 font-bold text-navy-950" data-i18n="process.leadtimes.row6Label">Total (ex-factory)</td><td class="px-6 py-4 font-bold">75&ndash;90 days</td><td class="px-6 py-4 font-bold">95&ndash;115 days</td></tr>
       </tbody>
     </table>
   </div>
-  <p class="text-sm text-slate-500 mt-4">Lead times begin from PP sample approval and confirmed material availability. Repeat programs with held fabric stock can run shorter cycles.</p>
+  <p class="text-sm text-slate-500 mt-4" data-i18n="process.leadtimes.note">Lead times begin from PP sample approval and confirmed material availability. Repeat programs with held fabric stock can run shorter cycles.</p>
 </section>
 
 <section class="bg-navy-950">
   <div class="max-w-7xl mx-auto px-6 py-16 flex flex-wrap items-center justify-between gap-6">
     <div>
-      <h2 class="text-2xl md:text-3xl font-bold text-white">Planning a production calendar?</h2>
-      <p class="text-slate-400 mt-2">Share your delivery windows and we'll map out a realistic timeline against our capacity.</p>
+      <h2 class="text-2xl md:text-3xl font-bold text-white" data-i18n="process.cta.title">Planning a production calendar?</h2>
+      <p class="text-slate-400 mt-2" data-i18n="process.cta.subtitle">Share your delivery windows and we'll map out a realistic timeline against our capacity.</p>
     </div>
-    <a href="./contact.html" class="btn-primary whitespace-nowrap">Request a Quote</a>
+    <a href="./contact.html" class="btn-primary whitespace-nowrap" data-i18n="process.cta.button">Request a Quote</a>
   </div>
 </section>
 
@@ -197,19 +207,19 @@
         <div class="w-9 h-9 bg-amber-600 flex items-center justify-center font-bold text-white text-sm">HB</div>
         <p class="text-white font-bold">Ha Bac Garment</p>
       </div>
-      <p>Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
+      <p data-i18n="common.footer.tagline">Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Company</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.companyHeading">Company</p>
       <ul class="space-y-2">
-        <li><a href="./about.html" class="hover:text-white">About Us</a></li>
-        <li><a href="./products.html" class="hover:text-white">Capabilities</a></li>
-        <li><a href="./process.html" class="hover:text-white">Production Process</a></li>
-        <li><a href="./certifications.html" class="hover:text-white">Certifications</a></li>
+        <li><a href="./about.html" class="hover:text-white" data-i18n="common.footer.aboutUs">About Us</a></li>
+        <li><a href="./products.html" class="hover:text-white" data-i18n="common.footer.capabilities">Capabilities</a></li>
+        <li><a href="./process.html" class="hover:text-white" data-i18n="common.footer.process">Production Process</a></li>
+        <li><a href="./certifications.html" class="hover:text-white" data-i18n="common.footer.certifications">Certifications</a></li>
       </ul>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Head Office</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.headOffice">Head Office</p>
       <address class="not-italic space-y-1">
         <p>Đình Trám, Hồng Thái Ward</p>
         <p>Việt Yên District, Bắc Giang Province, Vietnam</p>
@@ -218,18 +228,19 @@
       </address>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Get a Quote</p>
-      <p class="mb-4">Tell us about your style, quantity and timeline.</p>
-      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm">Start an RFQ</a>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.getQuoteHeading">Get a Quote</p>
+      <p class="mb-4" data-i18n="common.footer.getQuoteText">Tell us about your style, quantity and timeline.</p>
+      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm" data-i18n="common.footer.startRfq">Start an RFQ</a>
     </div>
   </div>
   <div class="border-t border-white/10">
     <div class="max-w-7xl mx-auto px-6 py-6 flex flex-wrap justify-between gap-2 text-xs">
-      <p>&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
+      <p data-i18n="common.footer.copyright">&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
       <p>Đình Trám, Việt Yên, Bắc Giang Province, Vietnam</p>
     </div>
   </div>
 </footer>
 
+<script src="./js/i18n.js"></script>
 </body>
 </html>

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ha Bac Garment | OEM Export Garment Manufacturing in Vietnam</title>
-<meta name="description" content="Ha Bac Export Garment JSC is a Vietnam-based OEM export manufacturer producing for international brands including Gap, Walmart, Target, Zara and H&amp;M since 2002." />
+<title data-i18n="home.meta.title">Ha Bac Garment | OEM Export Garment Manufacturing in Vietnam</title>
+<meta name="description" data-i18n="home.meta.description" data-i18n-attr="content" content="Ha Bac Export Garment JSC is a Vietnam-based OEM export manufacturer producing for international brands including Gap, Walmart, Target, Zara and H&amp;M since 2002." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,8 +15,8 @@
 <!-- Top utility bar -->
 <div class="bg-navy-950 text-slate-300 text-xs">
   <div class="max-w-7xl mx-auto px-6 py-2 flex flex-wrap justify-between items-center gap-2">
-    <p>Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
-    <p>RFQ response within 24&ndash;48 business hours &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
+    <p data-i18n="common.topbar.location">Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
+    <p><span data-i18n="common.topbar.rfq">RFQ response within 24&ndash;48 business hours</span> &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
   </div>
 </div>
 
@@ -27,28 +27,38 @@
       <div class="w-10 h-10 bg-amber-600 flex items-center justify-center font-bold text-white text-lg">HB</div>
       <div class="leading-tight">
         <p class="text-white font-bold text-lg tracking-tight">Ha Bac Garment</p>
-        <p class="text-slate-400 text-[11px] uppercase tracking-widest">OEM Export Manufacturing</p>
+        <p class="text-slate-400 text-[11px] uppercase tracking-widest" data-i18n="common.nav.tagline">OEM Export Manufacturing</p>
       </div>
     </a>
     <div class="hidden lg:flex items-center gap-8">
-      <a href="./index.html" class="nav-link-active">Home</a>
-      <a href="./about.html" class="nav-link">About</a>
-      <a href="./products.html" class="nav-link">Capabilities</a>
-      <a href="./process.html" class="nav-link">Production Process</a>
-      <a href="./certifications.html" class="nav-link">Certifications</a>
-      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm">Request a Quote</a>
+      <a href="./index.html" class="nav-link-active" data-i18n="common.nav.home">Home</a>
+      <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+      <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+      <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+      <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+      <div class="flex items-center gap-1">
+        <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+        <span class="text-slate-600">|</span>
+        <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+      </div>
+      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm" data-i18n="common.nav.requestQuote">Request a Quote</a>
     </div>
     <button class="lg:hidden text-white" aria-label="Open menu" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
     </button>
   </nav>
   <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 border-t border-white/10 px-6 py-4 flex flex-col gap-4">
-    <a href="./index.html" class="text-white font-semibold">Home</a>
-    <a href="./about.html" class="nav-link">About</a>
-    <a href="./products.html" class="nav-link">Capabilities</a>
-    <a href="./process.html" class="nav-link">Production Process</a>
-    <a href="./certifications.html" class="nav-link">Certifications</a>
-    <a href="./contact.html" class="nav-link">Contact / RFQ</a>
+    <a href="./index.html" class="text-white font-semibold" data-i18n="common.nav.home">Home</a>
+    <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+    <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+    <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+    <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+    <a href="./contact.html" class="nav-link" data-i18n="common.nav.contact">Contact / RFQ</a>
+    <div class="flex items-center gap-2 pt-2 border-t border-white/10">
+      <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+      <span class="text-slate-600">|</span>
+      <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+    </div>
   </div>
 </header>
 
@@ -59,16 +69,16 @@
     <div class="absolute inset-0 bg-gradient-to-r from-navy-950 via-navy-950/90 to-navy-950/40"></div>
   </div>
   <div class="relative max-w-7xl mx-auto px-6 py-28 md:py-36">
-    <p class="section-label mb-4">OEM Export Garment Manufacturer &mdash; Vietnam</p>
-    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight max-w-3xl">
+    <p class="section-label mb-4" data-i18n="home.hero.kicker">OEM Export Garment Manufacturer &mdash; Vietnam</p>
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight max-w-3xl" data-i18n="home.hero.title">
       Reliable Garment Production for International Fashion Brands
     </h1>
-    <p class="mt-6 text-lg text-slate-300 max-w-2xl">
+    <p class="mt-6 text-lg text-slate-300 max-w-2xl" data-i18n="home.hero.subtitle">
       Full-package cut-make-trim production across knitwear, jackets and bottoms &mdash; backed by an audited supply chain, in-house QC, and 20+ years manufacturing for global retailers from our plants in Bắc Giang Province.
     </p>
     <div class="mt-10 flex flex-wrap gap-4">
-      <a href="./contact.html" class="btn-primary">Request a Quote</a>
-      <a href="./products.html" class="btn-secondary">View Capabilities</a>
+      <a href="./contact.html" class="btn-primary" data-i18n="home.hero.ctaPrimary">Request a Quote</a>
+      <a href="./products.html" class="btn-secondary" data-i18n="home.hero.ctaSecondary">View Capabilities</a>
     </div>
   </div>
 </section>
@@ -76,22 +86,22 @@
 <!-- Stats bar -->
 <section class="bg-navy-900 border-t border-white/10">
   <div class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8">
-    <div><p class="stat-number">2002</p><p class="stat-label">Year Founded</p></div>
-    <div><p class="stat-number">3,000+</p><p class="stat-label">Skilled Workforce</p></div>
-    <div><p class="stat-number">2</p><p class="stat-label">Production Plants</p></div>
-    <div><p class="stat-number">15+</p><p class="stat-label">Global Brand Partners</p></div>
+    <div><p class="stat-number">2002</p><p class="stat-label" data-i18n="home.stats.yearFoundedLabel">Year Founded</p></div>
+    <div><p class="stat-number">3,000+</p><p class="stat-label" data-i18n="home.stats.workforceLabel">Skilled Workforce</p></div>
+    <div><p class="stat-number">2</p><p class="stat-label" data-i18n="home.stats.plantsLabel">Production Plants</p></div>
+    <div><p class="stat-number">15+</p><p class="stat-label" data-i18n="home.stats.brandPartnersLabel">Global Brand Partners</p></div>
   </div>
 </section>
 
 <!-- Trust / certifications strip -->
 <section class="bg-slate-50 border-b border-slate-200">
   <div class="max-w-7xl mx-auto px-6 py-8 flex flex-wrap items-center justify-between gap-6">
-    <p class="text-sm font-semibold text-slate-500 uppercase tracking-wider">Recognized &amp; Trusted</p>
+    <p class="text-sm font-semibold text-slate-500 uppercase tracking-wider" data-i18n="home.trust.heading">Recognized &amp; Trusted</p>
     <div class="flex flex-wrap items-center gap-x-10 gap-y-3 text-slate-500 font-semibold text-sm">
-      <span>US Customs Security Certified (ITS)</span>
-      <span>VNR500 &mdash; Top 500 Vietnam</span>
-      <span>FAST500 2015&ndash;2020</span>
-      <span>Trustworthy Export Enterprise 2020</span>
+      <span data-i18n="home.trust.badge1">US Customs Security Certified (ITS)</span>
+      <span data-i18n="home.trust.badge2">VNR500 &mdash; Top 500 Vietnam</span>
+      <span data-i18n="home.trust.badge3">FAST500 2015&ndash;2020</span>
+      <span data-i18n="home.trust.badge4">Trustworthy Export Enterprise 2020</span>
     </div>
   </div>
 </section>
@@ -99,40 +109,40 @@
 <!-- Capabilities overview -->
 <section class="max-w-7xl mx-auto px-6 py-20">
   <div class="max-w-2xl mb-12">
-    <p class="section-label mb-3">What We Do</p>
-    <h2 class="text-3xl md:text-4xl font-bold text-navy-950">End-to-End Manufacturing, Not Just Cut-and-Sew</h2>
-    <p class="mt-4 text-slate-600">From tech pack to shipped container, our team manages development, sourcing, production and compliance so your team can focus on design and sell-through.</p>
+    <p class="section-label mb-3" data-i18n="home.capabilities.kicker">What We Do</p>
+    <h2 class="text-3xl md:text-4xl font-bold text-navy-950" data-i18n="home.capabilities.title">End-to-End Manufacturing, Not Just Cut-and-Sew</h2>
+    <p class="mt-4 text-slate-600" data-i18n="home.capabilities.subtitle">From tech pack to shipped container, our team manages development, sourcing, production and compliance so your team can focus on design and sell-through.</p>
   </div>
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     <div class="card">
       <div class="w-10 h-10 bg-amber-600/10 text-amber-600 flex items-center justify-center font-bold mb-4">01</div>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">Full-Package OEM</h3>
-      <p class="text-sm text-slate-600">Pattern making, sampling, costing, bulk production and finishing under one roof.</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="home.capabilities.card1Title">Full-Package OEM</h3>
+      <p class="text-sm text-slate-600" data-i18n="home.capabilities.card1Desc">Pattern making, sampling, costing, bulk production and finishing under one roof.</p>
     </div>
     <div class="card">
       <div class="w-10 h-10 bg-amber-600/10 text-amber-600 flex items-center justify-center font-bold mb-4">02</div>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">Material Sourcing</h3>
-      <p class="text-sm text-slate-600">Vetted fabric and trim mills across Vietnam, China and Korea with lab-dip and bulk fabric approval.</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="home.capabilities.card2Title">Material Sourcing</h3>
+      <p class="text-sm text-slate-600" data-i18n="home.capabilities.card2Desc">Vetted fabric and trim mills across Vietnam, China and Korea with lab-dip and bulk fabric approval.</p>
     </div>
     <div class="card">
       <div class="w-10 h-10 bg-amber-600/10 text-amber-600 flex items-center justify-center font-bold mb-4">03</div>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">In-House Quality Control</h3>
-      <p class="text-sm text-slate-600">Inline and AQL 2.5 final inspection, with full accommodation for customer-nominated or third-party inspection visits.</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="home.capabilities.card3Title">In-House Quality Control</h3>
+      <p class="text-sm text-slate-600" data-i18n="home.capabilities.card3Desc">Inline and AQL 2.5 final inspection, with full accommodation for customer-nominated or third-party inspection visits.</p>
     </div>
     <div class="card">
       <div class="w-10 h-10 bg-amber-600/10 text-amber-600 flex items-center justify-center font-bold mb-4">04</div>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">Compliance &amp; Security</h3>
-      <p class="text-sm text-slate-600">US Customs security-standard certified (ITS) and routinely audited by our European and American clients.</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="home.capabilities.card4Title">Compliance &amp; Security</h3>
+      <p class="text-sm text-slate-600" data-i18n="home.capabilities.card4Desc">US Customs security-standard certified (ITS) and routinely audited by our European and American clients.</p>
     </div>
     <div class="card">
       <div class="w-10 h-10 bg-amber-600/10 text-amber-600 flex items-center justify-center font-bold mb-4">05</div>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">Established Track Record</h3>
-      <p class="text-sm text-slate-600">Ranked among Vietnam's 50 largest garment enterprises, manufacturing for 15+ global retail brands since 2002.</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="home.capabilities.card5Title">Established Track Record</h3>
+      <p class="text-sm text-slate-600" data-i18n="home.capabilities.card5Desc">Ranked among Vietnam's 50 largest garment enterprises, manufacturing for 15+ global retail brands since 2002.</p>
     </div>
     <div class="card">
       <div class="w-10 h-10 bg-amber-600/10 text-amber-600 flex items-center justify-center font-bold mb-4">06</div>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">Logistics &amp; Shipping</h3>
-      <p class="text-sm text-slate-600">FOB, CIF and DDP terms with container loading from Hai Phong port serving Northern Vietnam.</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="home.capabilities.card6Title">Logistics &amp; Shipping</h3>
+      <p class="text-sm text-slate-600" data-i18n="home.capabilities.card6Desc">FOB, CIF and DDP terms with container loading from Hai Phong port serving Northern Vietnam.</p>
     </div>
   </div>
 </section>
@@ -142,35 +152,35 @@
   <div class="max-w-7xl mx-auto px-6">
     <div class="flex flex-wrap items-end justify-between gap-4 mb-12">
       <div>
-        <p class="section-label mb-3">Product Categories</p>
-        <h2 class="text-3xl md:text-4xl font-bold text-navy-950">What We Manufacture</h2>
+        <p class="section-label mb-3" data-i18n="home.products.kicker">Product Categories</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-navy-950" data-i18n="home.products.title">What We Manufacture</h2>
       </div>
-      <a href="./products.html" class="font-semibold text-navy-900 hover:text-amber-600 inline-flex items-center gap-1">Full capabilities &rarr;</a>
+      <a href="./products.html" class="font-semibold text-navy-900 hover:text-amber-600 inline-flex items-center gap-1" data-i18n="home.products.viewAll">Full capabilities &rarr;</a>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
       <a href="./products.html" class="group block overflow-hidden bg-white border border-slate-200">
         <div class="aspect-[4/3] overflow-hidden">
           <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Knit shirts on production rack" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
         </div>
-        <p class="p-4 font-semibold text-navy-950">Knit Shirts &amp; Fleece</p>
+        <p class="p-4 font-semibold text-navy-950" data-i18n="home.products.cat1">Knit Shirts &amp; Fleece</p>
       </a>
       <a href="./products.html" class="group block overflow-hidden bg-white border border-slate-200">
         <div class="aspect-[4/3] overflow-hidden">
           <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80" alt="Jackets on rack" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
         </div>
-        <p class="p-4 font-semibold text-navy-950">Jackets</p>
+        <p class="p-4 font-semibold text-navy-950" data-i18n="home.products.cat2">Jackets</p>
       </a>
       <a href="./products.html" class="group block overflow-hidden bg-white border border-slate-200">
         <div class="aspect-[4/3] overflow-hidden">
           <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=800&q=80" alt="Pants, shorts and skirts fabric" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
         </div>
-        <p class="p-4 font-semibold text-navy-950">Pants, Shorts &amp; Skirts</p>
+        <p class="p-4 font-semibold text-navy-950" data-i18n="home.products.cat3">Pants, Shorts &amp; Skirts</p>
       </a>
       <a href="./products.html" class="group block overflow-hidden bg-white border border-slate-200">
         <div class="aspect-[4/3] overflow-hidden">
           <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=800&q=80" alt="Women's shirts on hangers" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
         </div>
-        <p class="p-4 font-semibold text-navy-950">Women's &amp; Children's Wear</p>
+        <p class="p-4 font-semibold text-navy-950" data-i18n="home.products.cat4">Women's &amp; Children's Wear</p>
       </a>
     </div>
   </div>
@@ -178,8 +188,8 @@
 
 <!-- Client brands -->
 <section class="max-w-7xl mx-auto px-6 py-20">
-  <p class="section-label mb-3 text-center">Manufacturing For</p>
-  <h2 class="text-3xl md:text-4xl font-bold text-navy-950 text-center mb-12">International Retail Brands</h2>
+  <p class="section-label mb-3 text-center" data-i18n="home.clients.kicker">Manufacturing For</p>
+  <h2 class="text-3xl md:text-4xl font-bold text-navy-950 text-center mb-12" data-i18n="home.clients.title">International Retail Brands</h2>
   <div class="grid grid-cols-3 sm:grid-cols-5 gap-6 text-center">
     <div class="border border-slate-200 py-6 font-bold text-slate-600">Gap</div>
     <div class="border border-slate-200 py-6 font-bold text-slate-600">Walmart</div>
@@ -192,34 +202,34 @@
     <div class="border border-slate-200 py-6 font-bold text-slate-600">Kohl's</div>
     <div class="border border-slate-200 py-6 font-bold text-slate-600">Carter's</div>
   </div>
-  <p class="text-center text-sm text-slate-500 mt-6">Plus Chico's, Sears, Dick's Sporting Goods, 32 Degrees and other long-term retail partners.</p>
+  <p class="text-center text-sm text-slate-500 mt-6" data-i18n="home.clients.footnote">Plus Chico's, Sears, Dick's Sporting Goods, 32 Degrees and other long-term retail partners.</p>
 </section>
 
 <!-- Process snapshot -->
 <section class="max-w-7xl mx-auto px-6 py-20">
   <div class="max-w-2xl mb-12">
-    <p class="section-label mb-3">How We Work</p>
-    <h2 class="text-3xl md:text-4xl font-bold text-navy-950">From Inquiry to Container, in Six Stages</h2>
+    <p class="section-label mb-3" data-i18n="home.process.kicker">How We Work</p>
+    <h2 class="text-3xl md:text-4xl font-bold text-navy-950" data-i18n="home.process.title">From Inquiry to Container, in Six Stages</h2>
   </div>
   <div class="grid sm:grid-cols-3 lg:grid-cols-6 gap-px bg-slate-200">
-    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">01</p><p class="text-sm font-semibold text-navy-950">Inquiry &amp; Tech Pack</p></div>
-    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">02</p><p class="text-sm font-semibold text-navy-950">Sampling &amp; Costing</p></div>
-    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">03</p><p class="text-sm font-semibold text-navy-950">Material Sourcing</p></div>
-    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">04</p><p class="text-sm font-semibold text-navy-950">Bulk Production</p></div>
-    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">05</p><p class="text-sm font-semibold text-navy-950">QC &amp; Inspection</p></div>
-    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">06</p><p class="text-sm font-semibold text-navy-950">Pack &amp; Ship</p></div>
+    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">01</p><p class="text-sm font-semibold text-navy-950" data-i18n="home.process.step1">Inquiry &amp; Tech Pack</p></div>
+    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">02</p><p class="text-sm font-semibold text-navy-950" data-i18n="home.process.step2">Sampling &amp; Costing</p></div>
+    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">03</p><p class="text-sm font-semibold text-navy-950" data-i18n="home.process.step3">Material Sourcing</p></div>
+    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">04</p><p class="text-sm font-semibold text-navy-950" data-i18n="home.process.step4">Bulk Production</p></div>
+    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">05</p><p class="text-sm font-semibold text-navy-950" data-i18n="home.process.step5">QC &amp; Inspection</p></div>
+    <div class="bg-white p-5"><p class="text-amber-600 font-bold text-sm mb-2">06</p><p class="text-sm font-semibold text-navy-950" data-i18n="home.process.step6">Pack &amp; Ship</p></div>
   </div>
-  <a href="./process.html" class="mt-8 inline-flex items-center gap-1 font-semibold text-navy-900 hover:text-amber-600">See full production process &rarr;</a>
+  <a href="./process.html" class="mt-8 inline-flex items-center gap-1 font-semibold text-navy-900 hover:text-amber-600" data-i18n="home.process.link">See full production process &rarr;</a>
 </section>
 
 <!-- CTA banner -->
 <section class="bg-navy-950">
   <div class="max-w-7xl mx-auto px-6 py-16 flex flex-wrap items-center justify-between gap-6">
     <div>
-      <h2 class="text-2xl md:text-3xl font-bold text-white">Ready to discuss your next production run?</h2>
-      <p class="text-slate-400 mt-2">Send us your tech pack and target quantities &mdash; our merchandising team responds within 24&ndash;48 hours.</p>
+      <h2 class="text-2xl md:text-3xl font-bold text-white" data-i18n="home.cta.title">Ready to discuss your next production run?</h2>
+      <p class="text-slate-400 mt-2" data-i18n="home.cta.subtitle">Send us your tech pack and target quantities &mdash; our merchandising team responds within 24&ndash;48 hours.</p>
     </div>
-    <a href="./contact.html" class="btn-primary whitespace-nowrap">Request a Quote</a>
+    <a href="./contact.html" class="btn-primary whitespace-nowrap" data-i18n="home.cta.button">Request a Quote</a>
   </div>
 </section>
 
@@ -231,19 +241,19 @@
         <div class="w-9 h-9 bg-amber-600 flex items-center justify-center font-bold text-white text-sm">HB</div>
         <p class="text-white font-bold">Ha Bac Garment</p>
       </div>
-      <p>Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
+      <p data-i18n="common.footer.tagline">Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Company</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.companyHeading">Company</p>
       <ul class="space-y-2">
-        <li><a href="./about.html" class="hover:text-white">About Us</a></li>
-        <li><a href="./products.html" class="hover:text-white">Capabilities</a></li>
-        <li><a href="./process.html" class="hover:text-white">Production Process</a></li>
-        <li><a href="./certifications.html" class="hover:text-white">Certifications</a></li>
+        <li><a href="./about.html" class="hover:text-white" data-i18n="common.footer.aboutUs">About Us</a></li>
+        <li><a href="./products.html" class="hover:text-white" data-i18n="common.footer.capabilities">Capabilities</a></li>
+        <li><a href="./process.html" class="hover:text-white" data-i18n="common.footer.process">Production Process</a></li>
+        <li><a href="./certifications.html" class="hover:text-white" data-i18n="common.footer.certifications">Certifications</a></li>
       </ul>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Head Office</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.headOffice">Head Office</p>
       <address class="not-italic space-y-1">
         <p>Đình Trám, Hồng Thái Ward</p>
         <p>Việt Yên District, Bắc Giang Province, Vietnam</p>
@@ -252,18 +262,19 @@
       </address>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Get a Quote</p>
-      <p class="mb-4">Tell us about your style, quantity and timeline.</p>
-      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm">Start an RFQ</a>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.getQuoteHeading">Get a Quote</p>
+      <p class="mb-4" data-i18n="common.footer.getQuoteText">Tell us about your style, quantity and timeline.</p>
+      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm" data-i18n="common.footer.startRfq">Start an RFQ</a>
     </div>
   </div>
   <div class="border-t border-white/10">
     <div class="max-w-7xl mx-auto px-6 py-6 flex flex-wrap justify-between gap-2 text-xs">
-      <p>&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
+      <p data-i18n="common.footer.copyright">&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
       <p>Đình Trám, Việt Yên, Bắc Giang Province, Vietnam</p>
     </div>
   </div>
 </footer>
 
+<script src="./js/i18n.js"></script>
 </body>
 </html>

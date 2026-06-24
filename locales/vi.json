@@ -1,0 +1,429 @@
+{
+  "common": {
+    "topbar": {
+      "location": "Tỉnh Bắc Giang, Việt Nam — Phục vụ khách hàng quốc tế từ năm 2002",
+      "rfq": "Phản hồi báo giá trong vòng 24–48 giờ làm việc"
+    },
+    "nav": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "capabilities": "Năng lực sản xuất",
+      "process": "Quy trình sản xuất",
+      "certifications": "Chứng nhận",
+      "contact": "Liên hệ / Báo giá",
+      "requestQuote": "Yêu cầu báo giá",
+      "tagline": "Sản xuất gia công xuất khẩu (OEM)"
+    },
+    "footer": {
+      "tagline": "Công ty may xuất khẩu có trụ sở tại tỉnh Bắc Giang, Việt Nam, sản xuất cho các thương hiệu quốc tế từ năm 2002.",
+      "companyHeading": "Công ty",
+      "aboutUs": "Giới thiệu",
+      "capabilities": "Năng lực sản xuất",
+      "process": "Quy trình sản xuất",
+      "certifications": "Chứng nhận",
+      "headOffice": "Văn phòng chính",
+      "getQuoteHeading": "Nhận báo giá",
+      "getQuoteText": "Cho chúng tôi biết về mẫu hàng, số lượng và thời gian giao hàng của bạn.",
+      "startRfq": "Gửi yêu cầu báo giá",
+      "copyright": "© 2026 Công ty Cổ phần May Xuất khẩu Hà Bắc. Bảo lưu mọi quyền."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Hà Bắc Garment | Sản xuất Gia công May Xuất khẩu (OEM) tại Việt Nam",
+      "description": "Công ty CP May Xuất khẩu Hà Bắc là nhà sản xuất OEM xuất khẩu tại Việt Nam, sản xuất cho các thương hiệu quốc tế như Gap, Walmart, Target, Zara và H&M từ năm 2002."
+    },
+    "hero": {
+      "kicker": "Nhà sản xuất Gia công May Xuất khẩu (OEM) — Việt Nam",
+      "title": "Đối tác Sản xuất May Mặc Tin Cậy cho Các Thương Hiệu Thời Trang Quốc Tế",
+      "subtitle": "Sản xuất CMT trọn gói cho hàng dệt kim, áo khoác và quần/váy — với chuỗi cung ứng được kiểm toán, kiểm soát chất lượng nội bộ, và hơn 20 năm sản xuất cho các nhà bán lẻ toàn cầu từ các nhà máy của chúng tôi tại tỉnh Bắc Giang.",
+      "ctaPrimary": "Yêu cầu báo giá",
+      "ctaSecondary": "Xem năng lực sản xuất"
+    },
+    "stats": {
+      "yearFoundedLabel": "Năm thành lập",
+      "workforceLabel": "Lao động lành nghề",
+      "plantsLabel": "Nhà máy sản xuất",
+      "brandPartnersLabel": "Đối tác thương hiệu toàn cầu"
+    },
+    "trust": {
+      "heading": "Được công nhận & Tin tưởng",
+      "badge1": "Chứng nhận An ninh Hải quan Hoa Kỳ (ITS)",
+      "badge2": "VNR500 — Top 500 Doanh nghiệp Việt Nam",
+      "badge3": "FAST500 giai đoạn 2015–2020",
+      "badge4": "Doanh nghiệp Xuất khẩu Uy tín 2020"
+    },
+    "capabilities": {
+      "kicker": "Chúng tôi làm gì",
+      "title": "Sản xuất Toàn diện, Không chỉ Cắt May Đơn thuần",
+      "subtitle": "Từ tech pack đến container xuất hàng, đội ngũ của chúng tôi quản lý phát triển mẫu, tìm nguồn nguyên liệu, sản xuất và tuân thủ — để đội ngũ của bạn tập trung vào thiết kế và bán hàng.",
+      "card1Title": "OEM Trọn Gói",
+      "card1Desc": "Làm rập, may mẫu, tính giá thành, sản xuất đại trà và hoàn thiện trong cùng một nơi.",
+      "card2Title": "Tìm Nguồn Nguyên Liệu",
+      "card2Desc": "Mạng lưới nhà cung cấp vải và phụ liệu đã được thẩm định tại Việt Nam, Trung Quốc và Hàn Quốc, với quy trình duyệt lab-dip và vải đại trà.",
+      "card3Title": "Kiểm Soát Chất Lượng Nội Bộ",
+      "card3Desc": "Kiểm tra trong chuyền và kiểm tra cuối cùng theo AQL 2.5, sẵn sàng hỗ trợ khách hàng hoặc bên thứ ba đến kiểm tra trực tiếp.",
+      "card4Title": "Tuân Thủ & An Ninh",
+      "card4Desc": "Chứng nhận tiêu chuẩn an ninh Hải quan Hoa Kỳ (ITS) và thường xuyên được khách hàng châu Âu, châu Mỹ kiểm toán.",
+      "card5Title": "Bề Dày Hoạt Động",
+      "card5Desc": "Nằm trong Top 50 doanh nghiệp may lớn nhất Việt Nam, sản xuất cho hơn 15 thương hiệu bán lẻ toàn cầu từ năm 2002.",
+      "card6Title": "Logistics & Vận Chuyển",
+      "card6Desc": "Điều kiện giao hàng FOB, CIF và DDP, đóng hàng container qua cảng Hải Phòng phục vụ khu vực miền Bắc."
+    },
+    "products": {
+      "kicker": "Nhóm Sản Phẩm",
+      "title": "Chúng Tôi Sản Xuất Những Gì",
+      "viewAll": "Xem toàn bộ năng lực →",
+      "cat1": "Áo Dệt Kim & Nỉ",
+      "cat2": "Áo Khoác",
+      "cat3": "Quần, Quần Short & Váy",
+      "cat4": "Hàng Nữ & Trẻ Em",
+      "cat4Alt": "Hàng Nữ & Trẻ Em"
+    },
+    "clients": {
+      "kicker": "Sản Xuất Cho",
+      "title": "Các Thương Hiệu Bán Lẻ Quốc Tế",
+      "footnote": "Cùng với Chico's, Sears, Dick's Sporting Goods, 32 Degrees và các đối tác bán lẻ lâu năm khác."
+    },
+    "process": {
+      "kicker": "Cách Chúng Tôi Làm Việc",
+      "title": "Từ Yêu Cầu Đến Container, Qua Sáu Giai Đoạn",
+      "step1": "Yêu Cầu & Tech Pack",
+      "step2": "Làm Mẫu & Tính Giá",
+      "step3": "Tìm Nguồn Nguyên Liệu",
+      "step4": "Sản Xuất Đại Trà",
+      "step5": "Kiểm Tra Chất Lượng",
+      "step6": "Đóng Gói & Xuất Hàng",
+      "link": "Xem toàn bộ quy trình sản xuất →"
+    },
+    "cta": {
+      "title": "Sẵn sàng trao đổi về đơn hàng sản xuất tiếp theo?",
+      "subtitle": "Gửi cho chúng tôi tech pack và số lượng mong muốn — đội ngũ merchandising sẽ phản hồi trong vòng 24–48 giờ.",
+      "button": "Yêu cầu báo giá"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Giới thiệu | Hà Bắc Garment",
+      "description": "Công ty CP May Xuất khẩu Hà Bắc, thành lập năm 2002 tại tỉnh Bắc Giang, nằm trong Top 50 doanh nghiệp may lớn nhất Việt Nam, sản xuất cho Gap, Walmart, Zara, H&M và nhiều thương hiệu toàn cầu khác."
+    },
+    "hero": {
+      "kicker": "Giới thiệu Hà Bắc Garment",
+      "title": "Hai Thập Kỷ Kỷ Luật Sản Xuất",
+      "subtitle": "Nhà sản xuất may xuất khẩu có trụ sở tại Bắc Giang, được xây dựng cho các thương hiệu cần chất lượng ổn định ở quy mô lớn."
+    },
+    "story": {
+      "kicker": "Câu Chuyện Của Chúng Tôi",
+      "title": "Thành Lập Năm 2002, Xây Dựng Để Xuất Khẩu",
+      "p1": "Công ty Cổ phần May Xuất khẩu Hà Bắc được thành lập vào tháng 9 năm 2002 tại tỉnh Bắc Giang nhằm phục vụ các thương hiệu thời trang quốc tế tìm kiếm một cơ sở sản xuất ổn định, tuân thủ tiêu chuẩn tại Việt Nam. Công ty đã phát triển thành mô hình hai nhà máy với hơn 3.000 cán bộ quản lý và lao động lành nghề.",
+      "p2": "Hiện nay chúng tôi sản xuất cho các nhà bán lẻ và thương hiệu thời trang quốc tế lớn, tập trung vào quan hệ hợp tác sản xuất dài hạn hơn là các đơn hàng đơn lẻ. Chúng tôi nằm trong Top 50 doanh nghiệp may lớn nhất Việt Nam, được công nhận là doanh nghiệp tăng trưởng nhanh FAST500 (giai đoạn 2015–2020) và Doanh nghiệp Xuất khẩu Uy tín năm 2020 do Bộ Công Thương Việt Nam bình chọn.",
+      "p3": "Đội ngũ quản lý của chúng tôi đã điều hành sản xuất xuất khẩu trọn gói trong gần hai thập kỷ, xây dựng hệ thống nội bộ để khách hàng có thể kiểm tra nhà máy một cách tin tưởng và xác minh việc tuân thủ các tiêu chuẩn lao động, môi trường quốc tế.",
+      "stat1Label": "Năm thành lập",
+      "stat2Label": "Cán bộ quản lý & lao động",
+      "stat3Label": "Nhà máy tại Bắc Giang",
+      "stat4Label": "Đối tác thương hiệu toàn cầu"
+    },
+    "facilities": {
+      "kicker": "Nhà Máy Của Chúng Tôi",
+      "title": "Hai Nhà Máy, Một Tiêu Chuẩn Chất Lượng",
+      "plant1Title": "Nhà máy 1",
+      "plant1Desc": "Khu công nghiệp Đình Trám, xã Hồng Thái, huyện Việt Yên, tỉnh Bắc Giang — sản xuất áo dệt kim, hàng nữ và hàng nỉ.",
+      "plant1Note": "Thông số kỹ thuật và năng lực nhà máy được cung cấp khi có chuyến thăm thẩm định.",
+      "plant2Title": "Nhà máy 2",
+      "plant2Desc": "Khu công nghiệp Đình Trám, xã Hồng Thái, huyện Việt Yên, tỉnh Bắc Giang — sản xuất áo khoác, quần/váy và hàng trẻ em.",
+      "plant2Note": "Thông số kỹ thuật và năng lực nhà máy được cung cấp khi có chuyến thăm thẩm định."
+    },
+    "values": {
+      "kicker": "Giá Trị Của Chúng Tôi",
+      "title": "Sứ Mệnh & Giá Trị Vận Hành",
+      "v1Title": "Tính Đồng Nhất",
+      "v1Desc": "Quy trình chuẩn hóa (SOP) áp dụng tại cả hai nhà máy để một mẫu sản xuất tại Nhà máy 1 đồng nhất với mẫu sản xuất tại Nhà máy 2.",
+      "v2Title": "Minh Bạch",
+      "v2Desc": "Sẵn sàng cung cấp bảng giá thành chi tiết khi được yêu cầu và không hạn chế quyền kiểm tra của khách hàng hoặc bên thứ ba.",
+      "v3Title": "Sản Xuất Có Trách Nhiệm",
+      "v3Desc": "Tiêu chuẩn lao động, an toàn sức khỏe và môi trường được xác minh thông qua các đợt kiểm toán tuân thủ của khách hàng châu Âu và châu Mỹ.",
+      "v4Title": "Hợp Tác Lâu Dài",
+      "v4Desc": "Chúng tôi ưu tiên các chương trình sản xuất theo mùa lặp lại hơn là đơn hàng một lần, dành năng lực cố định cho các khách hàng cốt lõi."
+    },
+    "compliance": {
+      "kicker": "Tuân Thủ",
+      "title": "Được Tin Tưởng Bởi Các Nhà Mua Hàng Quốc Tế Khắt Khe",
+      "desc": "Nhà máy của chúng tôi được chứng nhận theo tiêu chuẩn an ninh Hải quan Hoa Kỳ (xác minh bởi ITS) và thường xuyên trải qua các đợt đánh giá tuân thủ về lao động, an toàn sức khỏe và môi trường từ khách hàng châu Âu, châu Mỹ.",
+      "item1": "Nằm trong Top 50 doanh nghiệp may lớn nhất Việt Nam",
+      "item2": "VNR500 — Top 500 Doanh nghiệp lớn nhất Việt Nam (2018)",
+      "item3": "Doanh nghiệp tăng trưởng nhanh FAST500, giai đoạn 2015–2020",
+      "item4": "Doanh nghiệp Xuất khẩu Uy tín 2020, Bộ Công Thương"
+    },
+    "cta": {
+      "title": "Muốn tham quan trực tiếp nhà máy của chúng tôi?",
+      "subtitle": "Chúng tôi tổ chức các buổi kiểm tra nhà máy trực tiếp và trực tuyến cho các đối tác thương hiệu đủ điều kiện.",
+      "button": "Đặt lịch tham quan"
+    }
+  },
+  "products": {
+    "meta": {
+      "title": "Năng Lực Sản Xuất & Sản Phẩm | Hà Bắc Garment",
+      "description": "Năng lực sản xuất áo dệt kim, áo khoác, áo nữ, hàng nỉ, hàng trẻ em và quần/váy tại Công ty CP May Xuất khẩu Hà Bắc, tỉnh Bắc Giang, Việt Nam."
+    },
+    "hero": {
+      "kicker": "Năng Lực Sản Xuất",
+      "title": "Nhóm Sản Phẩm & Dịch Vụ Sản Xuất",
+      "subtitle": "Sáu nhóm sản phẩm chính, hỗ trợ phát triển mẫu toàn diện, và hệ thống thiết bị đáp ứng các đơn hàng số lượng lớn."
+    },
+    "categories": {
+      "kicker": "Nhóm Sản Phẩm",
+      "title": "Chúng Tôi Sản Xuất Những Gì",
+      "cat1": {
+        "title": "Áo Dệt Kim",
+        "desc": "Áo thun và áo polo trên vải dệt kim single jersey, interlock và rib cho các chương trình bán lẻ lớn.",
+        "b1": "Cotton, CVC, pha poly",
+        "b2": "In lụa & thêu",
+        "b3": "Có nhuộm thành phẩm (garment dye)",
+        "b4": "Số lượng theo thỏa thuận"
+      },
+      "cat2": {
+        "title": "Áo Nữ",
+        "desc": "Áo nữ dệt kim và dệt thoi trên vải cotton poplin, viscose và vải pha cho các chương trình thời trang và hàng cơ bản.",
+        "b1": "Nhảy size tại nhà máy",
+        "b2": "Pintuck, xếp ly, phụ liệu trang trí",
+        "b3": "Tìm nguồn vải in & nhuộm sợi",
+        "b4": "Số lượng theo thỏa thuận"
+      },
+      "cat3": {
+        "title": "Áo Khoác",
+        "desc": "Áo khoác với các lựa chọn độn tổng hợp hoặc cách nhiệt, đường may dán keo và lớp vải chống thấm.",
+        "b1": "Độn tổng hợp & lông vũ",
+        "b2": "Dán đường may, khóa kéo chống nước",
+        "b3": "Tìm nguồn phụ liệu, khóa kéo",
+        "b4": "Số lượng theo thỏa thuận"
+      },
+      "cat4": {
+        "title": "Áo Nỉ",
+        "desc": "Áo nỉ cổ tròn, hoodie trên vải nỉ chải lông và French terry cho các chương trình hàng cơ bản.",
+        "b1": "May flatlock",
+        "b2": "In lụa & thêu",
+        "b3": "Có nhuộm thành phẩm (garment dye)",
+        "b4": "Số lượng theo thỏa thuận"
+      },
+      "cat5": {
+        "title": "Quần, Quần Short & Váy",
+        "desc": "Quần dài, quần short và váy trên vải dệt thoi và vải pha co giãn cho các chương trình hàng quần/váy bán lẻ.",
+        "b1": "Nhảy size tại nhà máy",
+        "b2": "Tìm nguồn khóa kéo, rivet, phụ liệu",
+        "b3": "Giặt & hoàn thiện theo yêu cầu",
+        "b4": "Số lượng theo thỏa thuận"
+      },
+      "cat6": {
+        "title": "Hàng Trẻ Em",
+        "desc": "Hàng trẻ em dệt kim và dệt thoi được sản xuất theo cùng tiêu chuẩn chuyền và kiểm tra tuân thủ như hàng người lớn.",
+        "b1": "Kết cấu dệt kim & dệt thoi",
+        "b2": "In nhãn mác, thương hiệu riêng",
+        "b3": "In & thêu",
+        "b4": "Số lượng theo thỏa thuận"
+      }
+    },
+    "matrix": {
+      "kicker": "Dịch Vụ",
+      "title": "Bảng Năng Lực Dịch Vụ",
+      "svc1Title": "Hỗ Trợ Thiết Kế",
+      "svc1Desc": "Xem xét tech pack, số hóa rập CAD, nhảy size",
+      "svc2Title": "Làm Mẫu",
+      "svc2Desc": "Mẫu proto, mẫu fit và mẫu tiền sản xuất (PP) trong 7–10 ngày",
+      "svc3Title": "Tìm Nguồn Nguyên Liệu",
+      "svc3Desc": "Tìm nguồn vải & phụ liệu, lab-dip, kiểm tra vải đại trà",
+      "svc4Title": "Cắt & May",
+      "svc4Desc": "Cắt tự động, chuyền may module, cân bằng chuyền",
+      "svc5Title": "In & Thêu",
+      "svc5Desc": "In lụa, in sublimation, in DTF và thêu nhiều đầu",
+      "svc6Title": "Giặt & Nhuộm",
+      "svc6Desc": "Dịch vụ nhuộm thành phẩm và hoàn thiện theo yêu cầu",
+      "svc7Title": "Kiểm Soát Chất Lượng",
+      "svc7Desc": "Kiểm tra trong chuyền, cuối chuyền và kiểm tra cuối theo AQL 2.5",
+      "svc8Title": "Đóng Gói & Logistics",
+      "svc8Desc": "Đóng gói chuẩn bán lẻ, đóng túi, vận chuyển FOB/CIF/DDP"
+    },
+    "equipment": {
+      "kicker": "Thiết Bị",
+      "title": "Thiết Bị Sản Xuất",
+      "eq1Title": "Cắt",
+      "eq1Desc": "Cắt vải nhiều lớp bằng máy tính hóa",
+      "eq2Title": "May",
+      "eq2Desc": "Chuyền may lockstitch, vắt sổ và flatlock tại cả hai nhà máy",
+      "eq3Title": "Thêu & In",
+      "eq3Desc": "Máy thêu vi tính nhiều đầu, in lụa",
+      "eq4Title": "Hoàn Thiện",
+      "eq4Desc": "Là hơi và hoàn thiện trước khi đóng gói",
+      "note": "Số lượng máy cụ thể và năng lực chuyền được xác nhận theo từng đơn hàng trong giai đoạn tính giá và lập kế hoạch — liên hệ với chúng tôi để kiểm tra năng lực theo thời gian giao hàng của bạn."
+    },
+    "cta": {
+      "title": "Đã có tech pack sẵn sàng?",
+      "subtitle": "Gửi thông số kỹ thuật và số lượng mong muốn để nhận báo giá trong vòng 48 giờ.",
+      "button": "Yêu cầu báo giá"
+    }
+  },
+  "process": {
+    "meta": {
+      "title": "Quy Trình Sản Xuất | Hà Bắc Garment",
+      "description": "Quy trình sản xuất từng bước, tiêu chuẩn kiểm soát chất lượng và thời gian giao hàng điển hình của Hà Bắc Garment."
+    },
+    "hero": {
+      "kicker": "Quy Trình Sản Xuất",
+      "title": "Từ Tech Pack Đến Container Xuất Hàng",
+      "subtitle": "Một quy trình được ghi nhận đầy đủ, có thể lặp lại, giúp đối tác thương hiệu nắm rõ tiến độ ở mọi giai đoạn."
+    },
+    "steps": {
+      "step1Title": "Tiếp Nhận Yêu Cầu & Xem Xét Tech Pack",
+      "step1Desc": "Gửi tech pack, số lượng mong muốn và thời gian giao hàng qua form yêu cầu báo giá. Đội ngũ merchandising sẽ xem xét kết cấu, vải, phụ liệu và phản hồi các câu hỏi cần làm rõ trong vòng 24–48 giờ.",
+      "step2Title": "Làm Mẫu & Tính Giá",
+      "step2Desc": "Mẫu proto và mẫu fit được sản xuất và tính giá minh bạch theo từng khoản mục: vải, phụ liệu, nhân công và chi phí chung. Thời gian làm mẫu thông thường là 7–10 ngày làm việc.",
+      "step3Title": "Tìm Nguồn & Duyệt Nguyên Liệu",
+      "step3Desc": "Vải và phụ liệu được tìm nguồn từ mạng lưới nhà cung cấp đã được thẩm định. Lab-dip, strike-off và báo cáo kiểm tra vải đại trà được chia sẻ để duyệt trước khi cắt.",
+      "step4Title": "Xác Nhận Đơn Hàng & PO",
+      "step4Desc": "Duyệt mẫu tiền sản xuất (PP), xác nhận đơn đặt hàng (PO), và lên kế hoạch sản xuất theo năng lực chuyền.",
+      "step5Title": "Cắt, May & Lắp Ráp",
+      "step5Desc": "Cắt nhiều lớp bằng máy tính hóa, sau đó may theo chuyền module, kiểm tra chất lượng tại từng công đoạn thay vì chỉ ở cuối chuyền.",
+      "step6Title": "Giặt & Hoàn Thiện",
+      "step6Desc": "Nhuộm thành phẩm và là/hoàn thiện theo yêu cầu của từng mẫu, sau đó cắt chỉ và làm sạch sản phẩm.",
+      "step7Title": "Kiểm Soát Chất Lượng & Kiểm Tra Cuối Cùng",
+      "step7Desc": "Kiểm tra 100% trong chuyền cùng kiểm tra ngẫu nhiên cuối cùng theo AQL 2.5. Sẵn sàng đón tiếp khách hàng hoặc đơn vị kiểm tra bên thứ ba do khách hàng chỉ định để kiểm hàng trước khi xuất.",
+      "step8Title": "Đóng Gói, Dán Nhãn & Xuất Hàng",
+      "step8Desc": "Gấp, đóng túi và đóng thùng theo packing list của khách hàng, vận chuyển theo điều kiện FOB, CIF hoặc DDP qua cảng Hải Phòng."
+    },
+    "qc": {
+      "kicker": "Kiểm Soát Chất Lượng",
+      "title": "Tiêu Chuẩn Kiểm Tra",
+      "p1": "Mỗi đơn hàng đều trải qua ba mốc kiểm tra: kiểm tra trong chuyền khi may, kiểm tra cuối chuyền trước khi hoàn thiện, và kiểm tra ngẫu nhiên cuối cùng theo AQL 2.5 trước khi đóng gói.",
+      "p2": "Chúng tôi lưu trữ hồ sơ kiểm tra chi tiết theo từng đơn hàng và cung cấp báo cáo kiểm tra cho khách hàng khi được yêu cầu. Khách hàng hoặc đơn vị kiểm tra bên thứ ba có thể tham gia bất kỳ giai đoạn nào khi được báo trước.",
+      "checkpointsTitle": "Các Mốc Kiểm Tra",
+      "cp1Label": "Trong chuyền (DHU):",
+      "cp1Text": "Theo dõi tỷ lệ lỗi trên một trăm sản phẩm theo từng chuyền, từng giờ.",
+      "cp2Label": "Cuối chuyền:",
+      "cp2Text": "Kiểm tra 100% sản phẩm trước khi giặt/hoàn thiện.",
+      "cp3Label": "Kiểm tra ngẫu nhiên cuối (AQL 2.5):",
+      "cp3Text": "Theo bảng lấy mẫu tiêu chuẩn ISO 2859-1.",
+      "cp4Label": "Trước khi xuất hàng:",
+      "cp4Text": "Hỗ trợ kiểm tra bởi khách hàng hoặc bên thứ ba."
+    },
+    "leadtimes": {
+      "kicker": "Lập Kế Hoạch",
+      "title": "Thời Gian Giao Hàng Điển Hình",
+      "thStage": "Giai đoạn",
+      "thBasics": "Hàng cơ bản (Dệt kim/Dệt thoi)",
+      "thOuterwear": "Áo khoác / Hàng kỹ thuật",
+      "row1Label": "Mẫu proto / mẫu fit",
+      "row2Label": "Mẫu PP & duyệt mẫu",
+      "row3Label": "Tìm nguồn & duyệt nguyên liệu",
+      "row4Label": "Sản xuất đại trà",
+      "row5Label": "Kiểm tra & đóng gói",
+      "row6Label": "Tổng thời gian (xuất tại nhà máy)",
+      "note": "Thời gian giao hàng được tính từ khi duyệt mẫu PP và xác nhận nguyên liệu có sẵn. Các chương trình lặp lại với vải đã có sẵn trong kho có thể có thời gian ngắn hơn."
+    },
+    "cta": {
+      "title": "Đang lập kế hoạch sản xuất theo lịch?",
+      "subtitle": "Chia sẻ thời gian giao hàng mong muốn, chúng tôi sẽ lập lịch trình thực tế dựa trên năng lực hiện có.",
+      "button": "Yêu cầu báo giá"
+    }
+  },
+  "certifications": {
+    "meta": {
+      "title": "Chứng Nhận & Tuân Thủ | Hà Bắc Garment",
+      "description": "Công ty CP May Xuất khẩu Hà Bắc có chứng nhận an ninh Hải quan Hoa Kỳ (ITS) và được công nhận là doanh nghiệp VNR500, FAST500 và Doanh nghiệp Xuất khẩu Uy tín (2020)."
+    },
+    "hero": {
+      "kicker": "Chứng Nhận & Tuân Thủ",
+      "title": "Nhà Máy Được Kiểm Toán, Tiêu Chuẩn Được Ghi Nhận",
+      "subtitle": "Hai nhà máy của chúng tôi duy trì chứng nhận an ninh Hải quan Hoa Kỳ và thường xuyên được khách hàng bán lẻ quốc tế đánh giá theo các khung tiêu chuẩn về lao động, xã hội và môi trường."
+    },
+    "cards": {
+      "card1Tag": "An Ninh Thương Mại",
+      "card1Title": "Chứng Nhận An Ninh Hải Quan Hoa Kỳ",
+      "card1Desc": "Được chứng nhận theo tiêu chuẩn an ninh Hải quan Hoa Kỳ, xác minh bởi tổ chức ITS, hỗ trợ các yêu cầu an toàn chuỗi cung ứng cho hàng xuất đi Hoa Kỳ.",
+      "card2Tag": "Công Nhận Ngành",
+      "card2Title": "VNR500",
+      "card2Desc": "Nằm trong Top 500 Doanh nghiệp lớn nhất Việt Nam theo bảng xếp hạng Vietnam Report (2018).",
+      "card3Tag": "Công Nhận Ngành",
+      "card3Title": "FAST500",
+      "card3Desc": "Được công nhận là một trong những doanh nghiệp tăng trưởng nhanh nhất Việt Nam giai đoạn 2015–2020.",
+      "card4Tag": "Công Nhận Của Nhà Nước",
+      "card4Title": "Doanh Nghiệp Xuất Khẩu Uy Tín 2020",
+      "card4Desc": "Được Bộ Công Thương Việt Nam công nhận là Doanh nghiệp Xuất khẩu Uy tín.",
+      "card5Tag": "Vị Thế Ngành",
+      "card5Title": "Top 50 Doanh Nghiệp May Việt Nam",
+      "card5Desc": "Nằm trong Top 50 doanh nghiệp may lớn nhất Việt Nam theo kim ngạch xuất khẩu.",
+      "card6Tag": "Tuân Thủ Xã Hội",
+      "card6Title": "Kiểm Toán Tuân Thủ Của Khách Hàng",
+      "card6Desc": "Tiêu chuẩn lao động, an toàn sức khỏe và môi trường được khách hàng bán lẻ châu Âu, châu Mỹ đánh giá thường xuyên."
+    },
+    "approach": {
+      "kicker": "Cách Tiếp Cận Của Chúng Tôi",
+      "title": "Tuân Thủ Là Thực Hành Vận Hành, Không Phải Một Danh Sách Kiểm Tra",
+      "p1": "Chúng tôi coi tiêu chuẩn lao động, an toàn nơi làm việc và quản lý môi trường là cốt lõi trong vận hành hàng ngày của nhà máy — không phải hoạt động chuẩn bị trước mỗi kỳ kiểm toán.",
+      "p2": "Bộ phận tuân thủ xã hội nội bộ thực hiện tự kiểm tra hàng quý tại mỗi nhà máy, và các kế hoạch hành động khắc phục từ bất kỳ phát hiện kiểm toán bên thứ ba nào đều được theo dõi đến khi hoàn tất với hồ sơ minh chứng đầy đủ."
+    },
+    "docs": {
+      "kicker": "Tài Liệu",
+      "title": "Chứng Chỉ & Báo Cáo Kiểm Toán",
+      "desc": "Chứng chỉ đầy đủ và báo cáo kiểm toán mới nhất được cung cấp cho các đối tác thương hiệu và đại lý tìm nguồn hàng đủ điều kiện theo thỏa thuận bảo mật (NDA). Vui lòng yêu cầu qua form báo giá hoặc gửi email trực tiếp.",
+      "doc1": "Chứng Chỉ An Ninh Hải Quan Hoa Kỳ (ITS) — Cung cấp khi được yêu cầu",
+      "doc2": "Thư Công Nhận VNR500 / FAST500 — Cung cấp khi được yêu cầu",
+      "doc3": "Báo Cáo Kiểm Toán Tuân Thủ Của Khách Hàng — Cung cấp khi được yêu cầu"
+    },
+    "cta": {
+      "title": "Cần báo cáo kiểm toán để duyệt nhà cung cấp?",
+      "subtitle": "Yêu cầu bộ chứng chỉ và tài liệu tuân thủ hiện hành của chúng tôi.",
+      "button": "Yêu cầu tài liệu"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Liên Hệ & Yêu Cầu Báo Giá | Hà Bắc Garment",
+      "description": "Liên hệ Công ty CP May Xuất khẩu Hà Bắc hoặc gửi yêu cầu báo giá sản xuất may mặc tại Bắc Giang, Việt Nam. Chúng tôi phản hồi trong vòng 24–48 giờ làm việc."
+    },
+    "hero": {
+      "kicker": "Liên Hệ & Báo Giá",
+      "title": "Yêu Cầu Báo Giá",
+      "subtitle": "Chia sẻ tech pack và số lượng mong muốn bên dưới. Đội ngũ merchandising sẽ xem xét từng yêu cầu và phản hồi trong vòng 24–48 giờ làm việc."
+    },
+    "form": {
+      "heading": "Gửi Yêu Cầu Báo Giá",
+      "note": "Các trường có dấu (*) là bắt buộc. Form này hiện đang gửi đến một endpoint tạm thời — cần kết nối với Formspree, Netlify Forms hoặc hệ thống CRM của bạn trước khi vận hành thực tế.",
+      "companyLabel": "Tên công ty *",
+      "contactPersonLabel": "Người liên hệ *",
+      "emailLabel": "Email *",
+      "phoneLabel": "Điện thoại / WhatsApp",
+      "countryLabel": "Quốc gia *",
+      "countryPlaceholder": "VD: United States",
+      "categoryLabel": "Nhóm sản phẩm *",
+      "categorySelect": "Chọn một nhóm sản phẩm",
+      "categoryOpt1": "Áo Dệt Kim",
+      "categoryOpt2": "Áo Nữ",
+      "categoryOpt3": "Áo Khoác",
+      "categoryOpt4": "Áo Nỉ",
+      "categoryOpt5": "Quần, Quần Short & Váy",
+      "categoryOpt6": "Hàng Trẻ Em",
+      "categoryOpt7": "Khác",
+      "quantityLabel": "Số lượng đặt hàng (sản phẩm) *",
+      "quantityPlaceholder": "VD: 5.000 sản phẩm / mẫu-màu",
+      "targetPriceLabel": "Giá FOB mong muốn (không bắt buộc)",
+      "targetPricePlaceholder": "VD: 6,50 USD / sản phẩm",
+      "techPackLabel": "Tech Pack / Tài liệu tham khảo",
+      "techPackNote": "File PDF, AI hoặc hình ảnh. Tối đa 10MB mỗi file.",
+      "messageLabel": "Chi tiết đơn hàng *",
+      "messagePlaceholder": "Loại vải, chi tiết kết cấu, ngày giao hàng mong muốn, yêu cầu tuân thủ (nếu có)...",
+      "submit": "Gửi Yêu Cầu Báo Giá"
+    },
+    "info": {
+      "headOfficeTitle": "Văn Phòng Chính",
+      "faxLabel": "Fax: +84 240 3866 978",
+      "factoryLocationsTitle": "Địa Điểm Nhà Máy",
+      "plant1Label": "Nhà máy 1:",
+      "plant1Text": "Khu công nghiệp Đình Trám — áo dệt kim, hàng nữ, hàng nỉ",
+      "plant2Label": "Nhà máy 2:",
+      "plant2Text": "Khu công nghiệp Đình Trám — áo khoác, quần/váy, hàng trẻ em",
+      "responseTimeTitle": "Thời Gian Phản Hồi",
+      "responseTimeText": "Đội ngũ merchandising xem xét yêu cầu báo giá từ Thứ Hai đến Thứ Bảy và phản hồi trong vòng 24–48 giờ làm việc với các câu hỏi cần làm rõ hoặc lịch trình tính giá sơ bộ.",
+      "officeHours": "Giờ làm việc: 8:00–17:30 (GMT+7), Thứ Hai – Thứ Bảy",
+      "mapLabel": "Bản đồ: Khu công nghiệp Đình Trám, Việt Yên, Bắc Giang"
+    }
+  }
+}

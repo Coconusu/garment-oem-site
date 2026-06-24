@@ -36,4 +36,10 @@
   .stat-label {
     @apply text-xs uppercase tracking-wider text-slate-400 mt-1;
   }
+  .lang-btn {
+    @apply px-2 py-1 text-xs font-semibold text-slate-400 hover:text-white transition-colors rounded-sm;
+  }
+  .lang-btn-active {
+    @apply text-white bg-white/10;
+  }
 }

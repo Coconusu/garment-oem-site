@@ -1,0 +1,428 @@
+{
+  "common": {
+    "topbar": {
+      "location": "Bắc Giang Province, Vietnam — Serving global brands since 2002",
+      "rfq": "RFQ response within 24–48 business hours"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "capabilities": "Capabilities",
+      "process": "Production Process",
+      "certifications": "Certifications",
+      "contact": "Contact / RFQ",
+      "requestQuote": "Request a Quote",
+      "tagline": "OEM Export Manufacturing"
+    },
+    "footer": {
+      "tagline": "Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.",
+      "companyHeading": "Company",
+      "aboutUs": "About Us",
+      "capabilities": "Capabilities",
+      "process": "Production Process",
+      "certifications": "Certifications",
+      "headOffice": "Head Office",
+      "getQuoteHeading": "Get a Quote",
+      "getQuoteText": "Tell us about your style, quantity and timeline.",
+      "startRfq": "Start an RFQ",
+      "copyright": "© 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved."
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Ha Bac Garment | OEM Export Garment Manufacturing in Vietnam",
+      "description": "Ha Bac Export Garment JSC is a Vietnam-based OEM export manufacturer producing for international brands including Gap, Walmart, Target, Zara and H&M since 2002."
+    },
+    "hero": {
+      "kicker": "OEM Export Garment Manufacturer — Vietnam",
+      "title": "Reliable Garment Production for International Fashion Brands",
+      "subtitle": "Full-package cut-make-trim production across knitwear, jackets and bottoms — backed by an audited supply chain, in-house QC, and 20+ years manufacturing for global retailers from our plants in Bắc Giang Province.",
+      "ctaPrimary": "Request a Quote",
+      "ctaSecondary": "View Capabilities"
+    },
+    "stats": {
+      "yearFoundedLabel": "Year Founded",
+      "workforceLabel": "Skilled Workforce",
+      "plantsLabel": "Production Plants",
+      "brandPartnersLabel": "Global Brand Partners"
+    },
+    "trust": {
+      "heading": "Recognized & Trusted",
+      "badge1": "US Customs Security Certified (ITS)",
+      "badge2": "VNR500 — Top 500 Vietnam",
+      "badge3": "FAST500 2015–2020",
+      "badge4": "Trustworthy Export Enterprise 2020"
+    },
+    "capabilities": {
+      "kicker": "What We Do",
+      "title": "End-to-End Manufacturing, Not Just Cut-and-Sew",
+      "subtitle": "From tech pack to shipped container, our team manages development, sourcing, production and compliance so your team can focus on design and sell-through.",
+      "card1Title": "Full-Package OEM",
+      "card1Desc": "Pattern making, sampling, costing, bulk production and finishing under one roof.",
+      "card2Title": "Material Sourcing",
+      "card2Desc": "Vetted fabric and trim mills across Vietnam, China and Korea with lab-dip and bulk fabric approval.",
+      "card3Title": "In-House Quality Control",
+      "card3Desc": "Inline and AQL 2.5 final inspection, with full accommodation for customer-nominated or third-party inspection visits.",
+      "card4Title": "Compliance & Security",
+      "card4Desc": "US Customs security-standard certified (ITS) and routinely audited by our European and American clients.",
+      "card5Title": "Established Track Record",
+      "card5Desc": "Ranked among Vietnam's 50 largest garment enterprises, manufacturing for 15+ global retail brands since 2002.",
+      "card6Title": "Logistics & Shipping",
+      "card6Desc": "FOB, CIF and DDP terms with container loading from Hai Phong port serving Northern Vietnam."
+    },
+    "products": {
+      "kicker": "Product Categories",
+      "title": "What We Manufacture",
+      "viewAll": "Full capabilities →",
+      "cat1": "Knit Shirts & Fleece",
+      "cat2": "Jackets",
+      "cat3": "Pants, Shorts & Skirts",
+      "cat4": "Women's & Children's Wear"
+    },
+    "clients": {
+      "kicker": "Manufacturing For",
+      "title": "International Retail Brands",
+      "footnote": "Plus Chico's, Sears, Dick's Sporting Goods, 32 Degrees and other long-term retail partners."
+    },
+    "process": {
+      "kicker": "How We Work",
+      "title": "From Inquiry to Container, in Six Stages",
+      "step1": "Inquiry & Tech Pack",
+      "step2": "Sampling & Costing",
+      "step3": "Material Sourcing",
+      "step4": "Bulk Production",
+      "step5": "QC & Inspection",
+      "step6": "Pack & Ship",
+      "link": "See full production process →"
+    },
+    "cta": {
+      "title": "Ready to discuss your next production run?",
+      "subtitle": "Send us your tech pack and target quantities — our merchandising team responds within 24–48 hours.",
+      "button": "Request a Quote"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About Us | Ha Bac Garment",
+      "description": "Ha Bac Export Garment JSC, founded 2002 in Bắc Giang Province, ranks among Vietnam's 50 largest garment enterprises and manufactures for Gap, Walmart, Zara, H&M and other global brands."
+    },
+    "hero": {
+      "kicker": "About Ha Bac Garment",
+      "title": "Two Decades of Manufacturing Discipline",
+      "subtitle": "A Bắc Giang-based, export-focused garment manufacturer built for brands that need consistent quality at scale."
+    },
+    "story": {
+      "kicker": "Our Story",
+      "title": "Founded in 2002, Built for Export",
+      "p1": "Công ty Cổ phần May Xuất khẩu Hà Bắc (Ha Bac Export Garment Joint Stock Company) was established in September 2002 in Bắc Giang Province to serve international apparel brands seeking a stable, compliant production base in Vietnam. The company has grown into a two-plant operation employing over 3,000 management staff and skilled workers.",
+      "p2": "Today we manufacture for major international retailers and fashion brands, with a focus on long-term production partnerships rather than one-off orders. We are ranked among Vietnam's 50 largest garment enterprises and have been recognized as a FAST500 fastest-growing enterprise (2015–2020) and a 2020 Trustworthy Export Enterprise by Vietnam's Ministry of Industry and Trade.",
+      "p3": "Our management team has overseen full-package export production for nearly two decades, building internal systems so customers can audit our facilities with confidence and verify our compliance with international labor and environmental standards.",
+      "stat1Label": "Year Founded",
+      "stat2Label": "Management Staff & Workers",
+      "stat3Label": "Plants in Bắc Giang",
+      "stat4Label": "Global Brand Partners"
+    },
+    "facilities": {
+      "kicker": "Our Facilities",
+      "title": "Two Plants, One Quality Standard",
+      "plant1Title": "Plant 1",
+      "plant1Desc": "Đình Trám Industrial Area, Hồng Thái Ward, Việt Yên District, Bắc Giang Province — knit shirts, women's wear and fleece production.",
+      "plant1Note": "Facility specifications and capacity details available during a qualification visit.",
+      "plant2Title": "Plant 2",
+      "plant2Desc": "Đình Trám Industrial Area, Hồng Thái Ward, Việt Yên District, Bắc Giang Province — jackets, bottoms and children's wear production.",
+      "plant2Note": "Facility specifications and capacity details available during a qualification visit."
+    },
+    "values": {
+      "kicker": "What We Stand For",
+      "title": "Mission & Operating Values",
+      "v1Title": "Consistency",
+      "v1Desc": "Standardized SOPs across both plants so a style produced in Plant 1 matches one produced in Plant 2.",
+      "v2Title": "Transparency",
+      "v2Desc": "Open-book costing on request and unrestricted access for customer and third-party audits.",
+      "v3Title": "Responsible Production",
+      "v3Desc": "Labor, health and safety, and environmental practices verified through compliance audits conducted by our European and American clients.",
+      "v4Title": "Long-Term Partnership",
+      "v4Desc": "We prioritize repeat seasonal programs over one-time orders, dedicating fixed capacity to core accounts."
+    },
+    "compliance": {
+      "kicker": "Compliance",
+      "title": "Trusted by Demanding International Buyers",
+      "desc": "Our facilities are certified to the US Customs security standard (verified by ITS) and undergo regular labor, health & safety, and environmental compliance reviews by our European and American clients.",
+      "item1": "Among Vietnam's 50 largest garment enterprises",
+      "item2": "VNR500 — Top 500 Largest Enterprises in Vietnam (2018)",
+      "item3": "FAST500 Fastest-Growing Enterprise, 2015–2020",
+      "item4": "2020 Trustworthy Export Enterprise, Ministry of Industry & Trade"
+    },
+    "cta": {
+      "title": "Want to see our facilities in person?",
+      "subtitle": "We host in-person and virtual factory audits for qualified brand partners.",
+      "button": "Schedule a Visit"
+    }
+  },
+  "products": {
+    "meta": {
+      "title": "Capabilities & Products | Ha Bac Garment",
+      "description": "Knit shirts, jackets, women's shirts, fleece, children's wear and bottoms manufacturing capabilities at Ha Bac Export Garment JSC, Bắc Giang Province, Vietnam."
+    },
+    "hero": {
+      "kicker": "Capabilities",
+      "title": "Product Categories & Manufacturing Services",
+      "subtitle": "Six core product groups, full development support, and the equipment to back up bulk commitments."
+    },
+    "categories": {
+      "kicker": "Product Categories",
+      "title": "What We Manufacture",
+      "cat1": {
+        "title": "Knit Shirts",
+        "desc": "T-shirts and polo shirts in single jersey, interlock and rib knit fabrications for major retail programs.",
+        "b1": "Cotton, CVC, poly-blends",
+        "b2": "Screen print & embroidery",
+        "b3": "Garment dye available",
+        "b4": "Quantities by negotiation"
+      },
+      "cat2": {
+        "title": "Women's Shirts",
+        "desc": "Woven and knit women's tops in cotton poplin, viscose and blended fabrics for fashion and basics programs.",
+        "b1": "Pattern grading in-house",
+        "b2": "Pintuck, pleating, trims",
+        "b3": "Print & yarn-dye fabric sourcing",
+        "b4": "Quantities by negotiation"
+      },
+      "cat3": {
+        "title": "Jackets",
+        "desc": "Jackets and outerwear with synthetic and insulated fill options, bonded seams and weather-resistant shells.",
+        "b1": "Synthetic & down insulation",
+        "b2": "Taped seams, waterproof zips",
+        "b3": "Hardware & trim sourcing",
+        "b4": "Quantities by negotiation"
+      },
+      "cat4": {
+        "title": "Fleece & Sweatshirts",
+        "desc": "Crewnecks, hoodies and fleece tops in brushed-back and French terry knits for retail basics programs.",
+        "b1": "Flatlock seaming",
+        "b2": "Screen print & embroidery",
+        "b3": "Garment dye available",
+        "b4": "Quantities by negotiation"
+      },
+      "cat5": {
+        "title": "Pants, Shorts & Skirts",
+        "desc": "Long pants, shorts and skirts in woven and stretch-blend fabrics for retail bottoms programs.",
+        "b1": "Pattern grading in-house",
+        "b2": "Zippers, rivets, hardware sourcing",
+        "b3": "Wash & finishing on request",
+        "b4": "Quantities by negotiation"
+      },
+      "cat6": {
+        "title": "Children's Wear",
+        "desc": "Knit and woven children's apparel produced to the same line standards and compliance review as our adult product lines.",
+        "b1": "Knit & woven construction",
+        "b2": "Custom branding & labeling",
+        "b3": "Print & embroidery",
+        "b4": "Quantities by negotiation"
+      }
+    },
+    "matrix": {
+      "kicker": "Services",
+      "title": "Capability Matrix",
+      "svc1Title": "Design Support",
+      "svc1Desc": "Tech pack review, CAD pattern digitizing, grading",
+      "svc2Title": "Sampling",
+      "svc2Desc": "Proto, fit, and pre-production (PP) samples in 7–10 days",
+      "svc3Title": "Material Sourcing",
+      "svc3Desc": "Fabric & trim sourcing, lab dips, bulk fabric inspection",
+      "svc4Title": "Cutting & Sewing",
+      "svc4Desc": "Automated cutting, modular sewing lines, line balancing",
+      "svc5Title": "Printing & Embroidery",
+      "svc5Desc": "Screen, sublimation, DTF print and multi-head embroidery",
+      "svc6Title": "Washing & Dyeing",
+      "svc6Desc": "Garment dye and finishing services available on request",
+      "svc7Title": "Quality Control",
+      "svc7Desc": "Inline, end-line and AQL 2.5 final inspection",
+      "svc8Title": "Packaging & Logistics",
+      "svc8Desc": "Retail-ready packing, polybagging, FOB/CIF/DDP shipping"
+    },
+    "equipment": {
+      "kicker": "Equipment",
+      "title": "Manufacturing Equipment",
+      "eq1Title": "Cutting",
+      "eq1Desc": "Computerized multi-ply fabric cutting",
+      "eq2Title": "Sewing",
+      "eq2Desc": "Lockstitch, overlock and flatlock lines across both plants",
+      "eq3Title": "Embroidery & Print",
+      "eq3Desc": "Multi-head computerized embroidery, screen print",
+      "eq4Title": "Finishing",
+      "eq4Desc": "Steam pressing and finishing prior to packing",
+      "note": "Specific machine counts and line capacity are confirmed per order during the costing and planning stage — contact us for a capacity check against your delivery window."
+    },
+    "cta": {
+      "title": "Have a tech pack ready?",
+      "subtitle": "Send specs and target quantities for a costing within 48 hours.",
+      "button": "Request a Quote"
+    }
+  },
+  "process": {
+    "meta": {
+      "title": "Production Process | Ha Bac Garment",
+      "description": "A step-by-step view of Ha Bac Export Garment's production process, quality control standards and typical lead times."
+    },
+    "hero": {
+      "kicker": "Production Process",
+      "title": "From Tech Pack to Shipped Container",
+      "subtitle": "A documented, repeatable process designed to give brand partners visibility at every stage."
+    },
+    "steps": {
+      "step1Title": "Inquiry & Tech Pack Review",
+      "step1Desc": "Submit your tech pack, target quantity and timeline via our RFQ form. Our merchandising team reviews construction, fabric and trim requirements and follows up with clarifying questions within 24–48 hours.",
+      "step2Title": "Sampling & Costing",
+      "step2Desc": "Proto and fit samples are produced and costed transparently, with line-item breakdowns for fabric, trim, labor and overhead. Typical sample turnaround is 7–10 working days.",
+      "step3Title": "Material Sourcing & Approval",
+      "step3Desc": "Fabric and trims are sourced from our network of approved mills. Lab dips, strike-offs and bulk fabric inspection reports are shared for sign-off before cutting begins.",
+      "step4Title": "Bulk Order Confirmation & PO",
+      "step4Desc": "Pre-production (PP) sample approval, purchase order confirmation, and production scheduling against our line capacity.",
+      "step5Title": "Cutting, Sewing & Assembly",
+      "step5Desc": "Computerized multi-ply cutting followed by modular line sewing, with in-line quality checks at each work station rather than only at the end of the line.",
+      "step6Title": "Washing & Finishing",
+      "step6Desc": "Garment dye and pressing/finishing as required by style, followed by trimming and thread cleaning.",
+      "step7Title": "Quality Control & Final Inspection",
+      "step7Desc": "100% inline inspection plus AQL 2.5 final random inspection. Customer-nominated or third-party inspectors are welcomed for pre-shipment inspection.",
+      "step8Title": "Packing, Labeling & Shipping",
+      "step8Desc": "Retail-ready folding, polybagging and carton packing per your packing list, with FOB, CIF or DDP shipment booked through Hai Phong port."
+    },
+    "qc": {
+      "kicker": "Quality Control",
+      "title": "Inspection Standards",
+      "p1": "Every order passes through three checkpoints: inline inspection during sewing, end-of-line inspection before finishing, and a final randomized AQL 2.5 inspection prior to packing.",
+      "p2": "We maintain detailed inspection records per PO and provide inspection reports to customers on request. Customer or third-party inspectors may attend any stage with advance notice.",
+      "checkpointsTitle": "Inspection Checkpoints",
+      "cp1Label": "Inline (DHU):",
+      "cp1Text": "Defects-per-hundred-units tracked per line, per hour.",
+      "cp2Label": "End-of-line:",
+      "cp2Text": "100% garment check before wash/finish.",
+      "cp3Label": "Final random (AQL 2.5):",
+      "cp3Text": "Per ISO 2859-1 sampling tables.",
+      "cp4Label": "Pre-shipment:",
+      "cp4Text": "Customer/third-party inspection accommodated."
+    },
+    "leadtimes": {
+      "kicker": "Planning",
+      "title": "Typical Lead Times",
+      "thStage": "Stage",
+      "thBasics": "Basics (Knit/Woven)",
+      "thOuterwear": "Outerwear / Technical",
+      "row1Label": "Proto / fit sample",
+      "row2Label": "PP sample & approval",
+      "row3Label": "Material sourcing & approval",
+      "row4Label": "Bulk production",
+      "row5Label": "QC & packing",
+      "row6Label": "Total (ex-factory)",
+      "note": "Lead times begin from PP sample approval and confirmed material availability. Repeat programs with held fabric stock can run shorter cycles."
+    },
+    "cta": {
+      "title": "Planning a production calendar?",
+      "subtitle": "Share your delivery windows and we'll map out a realistic timeline against our capacity.",
+      "button": "Request a Quote"
+    }
+  },
+  "certifications": {
+    "meta": {
+      "title": "Certifications & Compliance | Ha Bac Garment",
+      "description": "Ha Bac Export Garment JSC holds US Customs security certification (ITS) and is recognized as a VNR500, FAST500 and Trustworthy Export Enterprise (2020) manufacturer."
+    },
+    "hero": {
+      "kicker": "Certifications & Compliance",
+      "title": "Audited Facilities, Documented Standards",
+      "subtitle": "Our two plants maintain US Customs security certification and are regularly reviewed by our international retail clients against labor, social and environmental compliance frameworks."
+    },
+    "cards": {
+      "card1Tag": "Trade Security",
+      "card1Title": "US Customs Security Certification",
+      "card1Desc": "Certified to the US Customs security standard, verified by the ITS organization, supporting secure supply chain requirements for US-bound shipments.",
+      "card2Tag": "Industry Recognition",
+      "card2Title": "VNR500",
+      "card2Desc": "Ranked among Vietnam's Top 500 Largest Enterprises by Vietnam Report (2018).",
+      "card3Tag": "Industry Recognition",
+      "card3Title": "FAST500",
+      "card3Desc": "Recognized as one of Vietnam's fastest-growing enterprises across the 2015–2020 ranking period.",
+      "card4Tag": "Government Recognition",
+      "card4Title": "Trustworthy Export Enterprise 2020",
+      "card4Desc": "Named a Trustworthy Export Enterprise by Vietnam's Ministry of Industry and Trade.",
+      "card5Tag": "Industry Standing",
+      "card5Title": "Top 50 Vietnam Garment Enterprises",
+      "card5Desc": "Ranked among the 50 largest garment enterprises in Vietnam by export volume.",
+      "card6Tag": "Social Compliance",
+      "card6Title": "Client Compliance Audits",
+      "card6Desc": "Labor standards, health & safety and environmental practices reviewed on an ongoing basis by our European and American retail clients."
+    },
+    "approach": {
+      "kicker": "Our Approach",
+      "title": "Compliance as Operating Practice, Not a Checklist",
+      "p1": "We treat labor standards, workplace safety and environmental management as core to how the factories run day to day — not preparation exercises ahead of a scheduled audit.",
+      "p2": "Internal social compliance staff conduct quarterly self-audits at each facility, and corrective action plans from any third-party audit finding are tracked to closure with documented evidence."
+    },
+    "docs": {
+      "kicker": "Documentation",
+      "title": "Certificates & Audit Reports",
+      "desc": "Full certificates and the latest audit reports are available to qualified brand partners and sourcing agents under NDA. Request copies through our RFQ form or directly by email.",
+      "doc1": "US Customs Security Certificate (ITS) — Available on Request",
+      "doc2": "VNR500 / FAST500 Recognition Letters — Available on Request",
+      "doc3": "Client Compliance Audit Reports — Available on Request"
+    },
+    "cta": {
+      "title": "Need our audit reports for vendor approval?",
+      "subtitle": "Request our current certificates and compliance documentation package.",
+      "button": "Request Documentation"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact & Request a Quote | Ha Bac Garment",
+      "description": "Contact Ha Bac Export Garment JSC or submit an RFQ for garment manufacturing in Bắc Giang, Vietnam. We respond to inquiries within 24-48 business hours."
+    },
+    "hero": {
+      "kicker": "Contact & RFQ",
+      "title": "Request a Quote",
+      "subtitle": "Share your tech pack and target quantities below. Our merchandising team reviews every submission and responds within 24–48 business hours."
+    },
+    "form": {
+      "heading": "Submit an RFQ",
+      "note": "Fields marked with an asterisk (*) are required. This form currently submits to a placeholder endpoint — connect it to Formspree, Netlify Forms or your CRM before launch.",
+      "companyLabel": "Company Name *",
+      "contactPersonLabel": "Contact Person *",
+      "emailLabel": "Email *",
+      "phoneLabel": "Phone / WhatsApp",
+      "countryLabel": "Country *",
+      "countryPlaceholder": "e.g. United States",
+      "categoryLabel": "Product Category *",
+      "categorySelect": "Select a category",
+      "categoryOpt1": "Knit Shirts",
+      "categoryOpt2": "Women's Shirts",
+      "categoryOpt3": "Jackets",
+      "categoryOpt4": "Fleece & Sweatshirts",
+      "categoryOpt5": "Pants, Shorts & Skirts",
+      "categoryOpt6": "Children's Wear",
+      "categoryOpt7": "Other",
+      "quantityLabel": "Order Quantity (units) *",
+      "quantityPlaceholder": "e.g. 5,000 pcs / style-color",
+      "targetPriceLabel": "Target FOB Price (optional)",
+      "targetPricePlaceholder": "e.g. USD 6.50 / unit",
+      "techPackLabel": "Tech Pack / Reference Files",
+      "techPackNote": "PDF, AI, or image files. Max 10MB per file.",
+      "messageLabel": "Project Details *",
+      "messagePlaceholder": "Fabric type, construction details, target delivery date, any compliance requirements...",
+      "submit": "Submit RFQ"
+    },
+    "info": {
+      "headOfficeTitle": "Head Office",
+      "faxLabel": "Fax: +84 240 3866 978",
+      "factoryLocationsTitle": "Factory Locations",
+      "plant1Label": "Plant 1:",
+      "plant1Text": "Đình Trám Industrial Area — knit shirts, women's wear, fleece",
+      "plant2Label": "Plant 2:",
+      "plant2Text": "Đình Trám Industrial Area — jackets, bottoms, children's wear",
+      "responseTimeTitle": "Response Time",
+      "responseTimeText": "Our merchandising team reviews RFQs Monday–Saturday and responds within 24–48 business hours with clarifying questions or a preliminary costing timeline.",
+      "officeHours": "Office Hours: 8:00–17:30 ICT (GMT+7), Mon–Sat",
+      "mapLabel": "Map: Đình Trám Industrial Area, Việt Yên, Bắc Giang"
+    }
+  }
+}

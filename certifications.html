@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Certifications &amp; Compliance | Ha Bac Garment</title>
-<meta name="description" content="Ha Bac Export Garment JSC holds US Customs security certification (ITS) and is recognized as a VNR500, FAST500 and Trustworthy Export Enterprise (2020) manufacturer." />
+<title data-i18n="certifications.meta.title">Certifications &amp; Compliance | Ha Bac Garment</title>
+<meta name="description" data-i18n="certifications.meta.description" data-i18n-attr="content" content="Ha Bac Export Garment JSC holds US Customs security certification (ITS) and is recognized as a VNR500, FAST500 and Trustworthy Export Enterprise (2020) manufacturer." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,8 +14,8 @@
 
 <div class="bg-navy-950 text-slate-300 text-xs">
   <div class="max-w-7xl mx-auto px-6 py-2 flex flex-wrap justify-between items-center gap-2">
-    <p>Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
-    <p>RFQ response within 24&ndash;48 business hours &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
+    <p data-i18n="common.topbar.location">Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
+    <p><span data-i18n="common.topbar.rfq">RFQ response within 24&ndash;48 business hours</span> &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
   </div>
 </div>
 
@@ -25,28 +25,38 @@
       <div class="w-10 h-10 bg-amber-600 flex items-center justify-center font-bold text-white text-lg">HB</div>
       <div class="leading-tight">
         <p class="text-white font-bold text-lg tracking-tight">Ha Bac Garment</p>
-        <p class="text-slate-400 text-[11px] uppercase tracking-widest">OEM Export Manufacturing</p>
+        <p class="text-slate-400 text-[11px] uppercase tracking-widest" data-i18n="common.nav.tagline">OEM Export Manufacturing</p>
       </div>
     </a>
     <div class="hidden lg:flex items-center gap-8">
-      <a href="./index.html" class="nav-link">Home</a>
-      <a href="./about.html" class="nav-link">About</a>
-      <a href="./products.html" class="nav-link">Capabilities</a>
-      <a href="./process.html" class="nav-link">Production Process</a>
-      <a href="./certifications.html" class="nav-link-active">Certifications</a>
-      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm">Request a Quote</a>
+      <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+      <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+      <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+      <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+      <a href="./certifications.html" class="nav-link-active" data-i18n="common.nav.certifications">Certifications</a>
+      <div class="flex items-center gap-1">
+        <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+        <span class="text-slate-600">|</span>
+        <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+      </div>
+      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm" data-i18n="common.nav.requestQuote">Request a Quote</a>
     </div>
     <button class="lg:hidden text-white" aria-label="Open menu" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
     </button>
   </nav>
   <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 border-t border-white/10 px-6 py-4 flex flex-col gap-4">
-    <a href="./index.html" class="nav-link">Home</a>
-    <a href="./about.html" class="nav-link">About</a>
-    <a href="./products.html" class="nav-link">Capabilities</a>
-    <a href="./process.html" class="nav-link">Production Process</a>
-    <a href="./certifications.html" class="text-white font-semibold">Certifications</a>
-    <a href="./contact.html" class="nav-link">Contact / RFQ</a>
+    <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+    <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+    <a href="./products.html" class="nav-link" data-i18n="common.nav.capabilities">Capabilities</a>
+    <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+    <a href="./certifications.html" class="text-white font-semibold" data-i18n="common.nav.certifications">Certifications</a>
+    <a href="./contact.html" class="nav-link" data-i18n="common.nav.contact">Contact / RFQ</a>
+    <div class="flex items-center gap-2 pt-2 border-t border-white/10">
+      <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+      <span class="text-slate-600">|</span>
+      <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+    </div>
   </div>
 </header>
 
@@ -56,9 +66,9 @@
     <div class="absolute inset-0 bg-navy-950/60"></div>
   </div>
   <div class="relative max-w-7xl mx-auto px-6 py-20">
-    <p class="section-label mb-3">Certifications &amp; Compliance</p>
-    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl">Audited Facilities, Documented Standards</h1>
-    <p class="mt-4 text-slate-300 max-w-2xl">Our two plants maintain US Customs security certification and are regularly reviewed by our international retail clients against labor, social and environmental compliance frameworks.</p>
+    <p class="section-label mb-3" data-i18n="certifications.hero.kicker">Certifications &amp; Compliance</p>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl" data-i18n="certifications.hero.title">Audited Facilities, Documented Standards</h1>
+    <p class="mt-4 text-slate-300 max-w-2xl" data-i18n="certifications.hero.subtitle">Our two plants maintain US Customs security certification and are regularly reviewed by our international retail clients against labor, social and environmental compliance frameworks.</p>
   </div>
 </section>
 
@@ -66,34 +76,34 @@
 <section class="max-w-7xl mx-auto px-6 py-20">
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
     <div class="card">
-      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2">Trade Security</p>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">US Customs Security Certification</h3>
-      <p class="text-sm text-slate-600">Certified to the US Customs security standard, verified by the ITS organization, supporting secure supply chain requirements for US-bound shipments.</p>
+      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2" data-i18n="certifications.cards.card1Tag">Trade Security</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="certifications.cards.card1Title">US Customs Security Certification</h3>
+      <p class="text-sm text-slate-600" data-i18n="certifications.cards.card1Desc">Certified to the US Customs security standard, verified by the ITS organization, supporting secure supply chain requirements for US-bound shipments.</p>
     </div>
     <div class="card">
-      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2">Industry Recognition</p>
+      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2" data-i18n="certifications.cards.card2Tag">Industry Recognition</p>
       <h3 class="font-bold text-lg text-navy-950 mb-2">VNR500</h3>
-      <p class="text-sm text-slate-600">Ranked among Vietnam's Top 500 Largest Enterprises by Vietnam Report (2018).</p>
+      <p class="text-sm text-slate-600" data-i18n="certifications.cards.card2Desc">Ranked among Vietnam's Top 500 Largest Enterprises by Vietnam Report (2018).</p>
     </div>
     <div class="card">
-      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2">Industry Recognition</p>
+      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2" data-i18n="certifications.cards.card3Tag">Industry Recognition</p>
       <h3 class="font-bold text-lg text-navy-950 mb-2">FAST500</h3>
-      <p class="text-sm text-slate-600">Recognized as one of Vietnam's fastest-growing enterprises across the 2015&ndash;2020 ranking period.</p>
+      <p class="text-sm text-slate-600" data-i18n="certifications.cards.card3Desc">Recognized as one of Vietnam's fastest-growing enterprises across the 2015&ndash;2020 ranking period.</p>
     </div>
     <div class="card">
-      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2">Government Recognition</p>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">Trustworthy Export Enterprise 2020</h3>
-      <p class="text-sm text-slate-600">Named a Trustworthy Export Enterprise by Vietnam's Ministry of Industry and Trade.</p>
+      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2" data-i18n="certifications.cards.card4Tag">Government Recognition</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="certifications.cards.card4Title">Trustworthy Export Enterprise 2020</h3>
+      <p class="text-sm text-slate-600" data-i18n="certifications.cards.card4Desc">Named a Trustworthy Export Enterprise by Vietnam's Ministry of Industry and Trade.</p>
     </div>
     <div class="card">
-      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2">Industry Standing</p>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">Top 50 Vietnam Garment Enterprises</h3>
-      <p class="text-sm text-slate-600">Ranked among the 50 largest garment enterprises in Vietnam by export volume.</p>
+      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2" data-i18n="certifications.cards.card5Tag">Industry Standing</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="certifications.cards.card5Title">Top 50 Vietnam Garment Enterprises</h3>
+      <p class="text-sm text-slate-600" data-i18n="certifications.cards.card5Desc">Ranked among the 50 largest garment enterprises in Vietnam by export volume.</p>
     </div>
     <div class="card">
-      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2">Social Compliance</p>
-      <h3 class="font-bold text-lg text-navy-950 mb-2">Client Compliance Audits</h3>
-      <p class="text-sm text-slate-600">Labor standards, health &amp; safety and environmental practices reviewed on an ongoing basis by our European and American retail clients.</p>
+      <p class="text-xs font-semibold uppercase tracking-wider text-amber-600 mb-2" data-i18n="certifications.cards.card6Tag">Social Compliance</p>
+      <h3 class="font-bold text-lg text-navy-950 mb-2" data-i18n="certifications.cards.card6Title">Client Compliance Audits</h3>
+      <p class="text-sm text-slate-600" data-i18n="certifications.cards.card6Desc">Labor standards, health &amp; safety and environmental practices reviewed on an ongoing basis by our European and American retail clients.</p>
     </div>
   </div>
 </section>
@@ -103,33 +113,33 @@
   <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
     <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80" alt="Factory worker safety equipment" class="w-full h-80 object-cover" />
     <div>
-      <p class="section-label mb-3">Our Approach</p>
-      <h2 class="text-3xl font-bold text-navy-950 mb-6">Compliance as Operating Practice, Not a Checklist</h2>
-      <p class="text-slate-600 mb-4">We treat labor standards, workplace safety and environmental management as core to how the factories run day to day &mdash; not preparation exercises ahead of a scheduled audit.</p>
-      <p class="text-slate-600">Internal social compliance staff conduct quarterly self-audits at each facility, and corrective action plans from any third-party audit finding are tracked to closure with documented evidence.</p>
+      <p class="section-label mb-3" data-i18n="certifications.approach.kicker">Our Approach</p>
+      <h2 class="text-3xl font-bold text-navy-950 mb-6" data-i18n="certifications.approach.title">Compliance as Operating Practice, Not a Checklist</h2>
+      <p class="text-slate-600 mb-4" data-i18n="certifications.approach.p1">We treat labor standards, workplace safety and environmental management as core to how the factories run day to day &mdash; not preparation exercises ahead of a scheduled audit.</p>
+      <p class="text-slate-600" data-i18n="certifications.approach.p2">Internal social compliance staff conduct quarterly self-audits at each facility, and corrective action plans from any third-party audit finding are tracked to closure with documented evidence.</p>
     </div>
   </div>
 </section>
 
 <!-- Downloadable certs -->
 <section class="max-w-7xl mx-auto px-6 py-20">
-  <p class="section-label mb-3">Documentation</p>
-  <h2 class="text-3xl font-bold text-navy-950 mb-6">Certificates &amp; Audit Reports</h2>
-  <p class="text-slate-600 mb-8 max-w-2xl">Full certificates and the latest audit reports are available to qualified brand partners and sourcing agents under NDA. Request copies through our RFQ form or directly by email.</p>
+  <p class="section-label mb-3" data-i18n="certifications.docs.kicker">Documentation</p>
+  <h2 class="text-3xl font-bold text-navy-950 mb-6" data-i18n="certifications.docs.title">Certificates &amp; Audit Reports</h2>
+  <p class="text-slate-600 mb-8 max-w-2xl" data-i18n="certifications.docs.desc">Full certificates and the latest audit reports are available to qualified brand partners and sourcing agents under NDA. Request copies through our RFQ form or directly by email.</p>
   <div class="flex flex-wrap gap-4">
-    <span class="inline-flex items-center gap-2 border border-slate-300 text-slate-500 px-5 py-3 text-sm font-semibold cursor-not-allowed" title="Available upon request">US Customs Security Certificate (ITS) &mdash; Available on Request</span>
-    <span class="inline-flex items-center gap-2 border border-slate-300 text-slate-500 px-5 py-3 text-sm font-semibold cursor-not-allowed" title="Available upon request">VNR500 / FAST500 Recognition Letters &mdash; Available on Request</span>
-    <span class="inline-flex items-center gap-2 border border-slate-300 text-slate-500 px-5 py-3 text-sm font-semibold cursor-not-allowed" title="Available upon request">Client Compliance Audit Reports &mdash; Available on Request</span>
+    <span class="inline-flex items-center gap-2 border border-slate-300 text-slate-500 px-5 py-3 text-sm font-semibold cursor-not-allowed" title="Available upon request" data-i18n="certifications.docs.doc1">US Customs Security Certificate (ITS) &mdash; Available on Request</span>
+    <span class="inline-flex items-center gap-2 border border-slate-300 text-slate-500 px-5 py-3 text-sm font-semibold cursor-not-allowed" title="Available upon request" data-i18n="certifications.docs.doc2">VNR500 / FAST500 Recognition Letters &mdash; Available on Request</span>
+    <span class="inline-flex items-center gap-2 border border-slate-300 text-slate-500 px-5 py-3 text-sm font-semibold cursor-not-allowed" title="Available upon request" data-i18n="certifications.docs.doc3">Client Compliance Audit Reports &mdash; Available on Request</span>
   </div>
 </section>
 
 <section class="bg-navy-950">
   <div class="max-w-7xl mx-auto px-6 py-16 flex flex-wrap items-center justify-between gap-6">
     <div>
-      <h2 class="text-2xl md:text-3xl font-bold text-white">Need our audit reports for vendor approval?</h2>
-      <p class="text-slate-400 mt-2">Request our current certificates and compliance documentation package.</p>
+      <h2 class="text-2xl md:text-3xl font-bold text-white" data-i18n="certifications.cta.title">Need our audit reports for vendor approval?</h2>
+      <p class="text-slate-400 mt-2" data-i18n="certifications.cta.subtitle">Request our current certificates and compliance documentation package.</p>
     </div>
-    <a href="./contact.html" class="btn-primary whitespace-nowrap">Request Documentation</a>
+    <a href="./contact.html" class="btn-primary whitespace-nowrap" data-i18n="certifications.cta.button">Request Documentation</a>
   </div>
 </section>
 
@@ -140,19 +150,19 @@
         <div class="w-9 h-9 bg-amber-600 flex items-center justify-center font-bold text-white text-sm">HB</div>
         <p class="text-white font-bold">Ha Bac Garment</p>
       </div>
-      <p>Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
+      <p data-i18n="common.footer.tagline">Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Company</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.companyHeading">Company</p>
       <ul class="space-y-2">
-        <li><a href="./about.html" class="hover:text-white">About Us</a></li>
-        <li><a href="./products.html" class="hover:text-white">Capabilities</a></li>
-        <li><a href="./process.html" class="hover:text-white">Production Process</a></li>
-        <li><a href="./certifications.html" class="hover:text-white">Certifications</a></li>
+        <li><a href="./about.html" class="hover:text-white" data-i18n="common.footer.aboutUs">About Us</a></li>
+        <li><a href="./products.html" class="hover:text-white" data-i18n="common.footer.capabilities">Capabilities</a></li>
+        <li><a href="./process.html" class="hover:text-white" data-i18n="common.footer.process">Production Process</a></li>
+        <li><a href="./certifications.html" class="hover:text-white" data-i18n="common.footer.certifications">Certifications</a></li>
       </ul>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Head Office</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.headOffice">Head Office</p>
       <address class="not-italic space-y-1">
         <p>Đình Trám, Hồng Thái Ward</p>
         <p>Việt Yên District, Bắc Giang Province, Vietnam</p>
@@ -161,18 +171,19 @@
       </address>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Get a Quote</p>
-      <p class="mb-4">Tell us about your style, quantity and timeline.</p>
-      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm">Start an RFQ</a>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.getQuoteHeading">Get a Quote</p>
+      <p class="mb-4" data-i18n="common.footer.getQuoteText">Tell us about your style, quantity and timeline.</p>
+      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm" data-i18n="common.footer.startRfq">Start an RFQ</a>
     </div>
   </div>
   <div class="border-t border-white/10">
     <div class="max-w-7xl mx-auto px-6 py-6 flex flex-wrap justify-between gap-2 text-xs">
-      <p>&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
+      <p data-i18n="common.footer.copyright">&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
       <p>Đình Trám, Việt Yên, Bắc Giang Province, Vietnam</p>
     </div>
   </div>
 </footer>
 
+<script src="./js/i18n.js"></script>
 </body>
 </html>

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Capabilities &amp; Products | Ha Bac Garment</title>
-<meta name="description" content="Knit shirts, jackets, women's shirts, fleece, children's wear and bottoms manufacturing capabilities at Ha Bac Export Garment JSC, Bắc Giang Province, Vietnam." />
+<title data-i18n="products.meta.title">Capabilities &amp; Products | Ha Bac Garment</title>
+<meta name="description" data-i18n="products.meta.description" data-i18n-attr="content" content="Knit shirts, jackets, women's shirts, fleece, children's wear and bottoms manufacturing capabilities at Ha Bac Export Garment JSC, Bắc Giang Province, Vietnam." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,8 +14,8 @@
 
 <div class="bg-navy-950 text-slate-300 text-xs">
   <div class="max-w-7xl mx-auto px-6 py-2 flex flex-wrap justify-between items-center gap-2">
-    <p>Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
-    <p>RFQ response within 24&ndash;48 business hours &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
+    <p data-i18n="common.topbar.location">Bắc Giang Province, Vietnam &mdash; Serving global brands since 2002</p>
+    <p><span data-i18n="common.topbar.rfq">RFQ response within 24&ndash;48 business hours</span> &mdash; <a href="mailto:garcohabac@garcohabac.com" class="hover:text-white underline underline-offset-2">garcohabac@garcohabac.com</a></p>
   </div>
 </div>
 
@@ -25,28 +25,38 @@
       <div class="w-10 h-10 bg-amber-600 flex items-center justify-center font-bold text-white text-lg">HB</div>
       <div class="leading-tight">
         <p class="text-white font-bold text-lg tracking-tight">Ha Bac Garment</p>
-        <p class="text-slate-400 text-[11px] uppercase tracking-widest">OEM Export Manufacturing</p>
+        <p class="text-slate-400 text-[11px] uppercase tracking-widest" data-i18n="common.nav.tagline">OEM Export Manufacturing</p>
       </div>
     </a>
     <div class="hidden lg:flex items-center gap-8">
-      <a href="./index.html" class="nav-link">Home</a>
-      <a href="./about.html" class="nav-link">About</a>
-      <a href="./products.html" class="nav-link-active">Capabilities</a>
-      <a href="./process.html" class="nav-link">Production Process</a>
-      <a href="./certifications.html" class="nav-link">Certifications</a>
-      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm">Request a Quote</a>
+      <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+      <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+      <a href="./products.html" class="nav-link-active" data-i18n="common.nav.capabilities">Capabilities</a>
+      <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+      <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+      <div class="flex items-center gap-1">
+        <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+        <span class="text-slate-600">|</span>
+        <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+      </div>
+      <a href="./contact.html" class="btn-primary !px-5 !py-2.5 text-sm" data-i18n="common.nav.requestQuote">Request a Quote</a>
     </div>
     <button class="lg:hidden text-white" aria-label="Open menu" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
     </button>
   </nav>
   <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 border-t border-white/10 px-6 py-4 flex flex-col gap-4">
-    <a href="./index.html" class="nav-link">Home</a>
-    <a href="./about.html" class="nav-link">About</a>
-    <a href="./products.html" class="text-white font-semibold">Capabilities</a>
-    <a href="./process.html" class="nav-link">Production Process</a>
-    <a href="./certifications.html" class="nav-link">Certifications</a>
-    <a href="./contact.html" class="nav-link">Contact / RFQ</a>
+    <a href="./index.html" class="nav-link" data-i18n="common.nav.home">Home</a>
+    <a href="./about.html" class="nav-link" data-i18n="common.nav.about">About</a>
+    <a href="./products.html" class="text-white font-semibold" data-i18n="common.nav.capabilities">Capabilities</a>
+    <a href="./process.html" class="nav-link" data-i18n="common.nav.process">Production Process</a>
+    <a href="./certifications.html" class="nav-link" data-i18n="common.nav.certifications">Certifications</a>
+    <a href="./contact.html" class="nav-link" data-i18n="common.nav.contact">Contact / RFQ</a>
+    <div class="flex items-center gap-2 pt-2 border-t border-white/10">
+      <button type="button" onclick="setLang('en')" data-lang-btn="en" class="lang-btn">EN</button>
+      <span class="text-slate-600">|</span>
+      <button type="button" onclick="setLang('vi')" data-lang-btn="vi" class="lang-btn">VI</button>
+    </div>
   </div>
 </header>
 
@@ -56,28 +66,28 @@
     <div class="absolute inset-0 bg-navy-950/60"></div>
   </div>
   <div class="relative max-w-7xl mx-auto px-6 py-20">
-    <p class="section-label mb-3">Capabilities</p>
-    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl">Product Categories &amp; Manufacturing Services</h1>
-    <p class="mt-4 text-slate-300 max-w-2xl">Six core product groups, full development support, and the equipment to back up bulk commitments.</p>
+    <p class="section-label mb-3" data-i18n="products.hero.kicker">Capabilities</p>
+    <h1 class="text-4xl md:text-5xl font-extrabold text-white max-w-3xl" data-i18n="products.hero.title">Product Categories &amp; Manufacturing Services</h1>
+    <p class="mt-4 text-slate-300 max-w-2xl" data-i18n="products.hero.subtitle">Six core product groups, full development support, and the equipment to back up bulk commitments.</p>
   </div>
 </section>
 
 <!-- Product categories -->
 <section class="max-w-7xl mx-auto px-6 py-20">
-  <p class="section-label mb-3">Product Categories</p>
-  <h2 class="text-3xl font-bold text-navy-950 mb-12">What We Manufacture</h2>
+  <p class="section-label mb-3" data-i18n="products.categories.kicker">Product Categories</p>
+  <h2 class="text-3xl font-bold text-navy-950 mb-12" data-i18n="products.categories.title">What We Manufacture</h2>
   <div class="space-y-12">
 
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" alt="Knitwear t-shirts" class="w-full h-72 object-cover" />
       <div>
-        <h3 class="text-2xl font-bold text-navy-950 mb-3">Knit Shirts</h3>
-        <p class="text-slate-600 mb-4">T-shirts and polo shirts in single jersey, interlock and rib knit fabrications for major retail programs.</p>
+        <h3 class="text-2xl font-bold text-navy-950 mb-3" data-i18n="products.categories.cat1.title">Knit Shirts</h3>
+        <p class="text-slate-600 mb-4" data-i18n="products.categories.cat1.desc">T-shirts and polo shirts in single jersey, interlock and rib knit fabrications for major retail programs.</p>
         <ul class="grid grid-cols-2 gap-2 text-sm text-slate-600">
-          <li>&bull; Cotton, CVC, poly-blends</li>
-          <li>&bull; Screen print &amp; embroidery</li>
-          <li>&bull; Garment dye available</li>
-          <li>&bull; Quantities by negotiation</li>
+          <li>&bull; <span data-i18n="products.categories.cat1.b1">Cotton, CVC, poly-blends</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat1.b2">Screen print &amp; embroidery</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat1.b3">Garment dye available</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat1.b4">Quantities by negotiation</span></li>
         </ul>
       </div>
     </div>
@@ -87,13 +97,13 @@
         <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=900&q=80" alt="Woven shirts on hangers" class="w-full h-72 object-cover" />
       </div>
       <div class="md:order-1">
-        <h3 class="text-2xl font-bold text-navy-950 mb-3">Women's Shirts</h3>
-        <p class="text-slate-600 mb-4">Woven and knit women's tops in cotton poplin, viscose and blended fabrics for fashion and basics programs.</p>
+        <h3 class="text-2xl font-bold text-navy-950 mb-3" data-i18n="products.categories.cat2.title">Women's Shirts</h3>
+        <p class="text-slate-600 mb-4" data-i18n="products.categories.cat2.desc">Woven and knit women's tops in cotton poplin, viscose and blended fabrics for fashion and basics programs.</p>
         <ul class="grid grid-cols-2 gap-2 text-sm text-slate-600">
-          <li>&bull; Pattern grading in-house</li>
-          <li>&bull; Pintuck, pleating, trims</li>
-          <li>&bull; Print &amp; yarn-dye fabric sourcing</li>
-          <li>&bull; Quantities by negotiation</li>
+          <li>&bull; <span data-i18n="products.categories.cat2.b1">Pattern grading in-house</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat2.b2">Pintuck, pleating, trims</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat2.b3">Print &amp; yarn-dye fabric sourcing</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat2.b4">Quantities by negotiation</span></li>
         </ul>
       </div>
     </div>
@@ -101,13 +111,13 @@
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=80" alt="Outerwear jackets on rack" class="w-full h-72 object-cover" />
       <div>
-        <h3 class="text-2xl font-bold text-navy-950 mb-3">Jackets</h3>
-        <p class="text-slate-600 mb-4">Jackets and outerwear with synthetic and insulated fill options, bonded seams and weather-resistant shells.</p>
+        <h3 class="text-2xl font-bold text-navy-950 mb-3" data-i18n="products.categories.cat3.title">Jackets</h3>
+        <p class="text-slate-600 mb-4" data-i18n="products.categories.cat3.desc">Jackets and outerwear with synthetic and insulated fill options, bonded seams and weather-resistant shells.</p>
         <ul class="grid grid-cols-2 gap-2 text-sm text-slate-600">
-          <li>&bull; Synthetic &amp; down insulation</li>
-          <li>&bull; Taped seams, waterproof zips</li>
-          <li>&bull; Hardware &amp; trim sourcing</li>
-          <li>&bull; Quantities by negotiation</li>
+          <li>&bull; <span data-i18n="products.categories.cat3.b1">Synthetic &amp; down insulation</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat3.b2">Taped seams, waterproof zips</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat3.b3">Hardware &amp; trim sourcing</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat3.b4">Quantities by negotiation</span></li>
         </ul>
       </div>
     </div>
@@ -117,13 +127,13 @@
         <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=900&q=80" alt="Fleece and sweatshirt garments" class="w-full h-72 object-cover" />
       </div>
       <div class="md:order-1">
-        <h3 class="text-2xl font-bold text-navy-950 mb-3">Fleece &amp; Sweatshirts</h3>
-        <p class="text-slate-600 mb-4">Crewnecks, hoodies and fleece tops in brushed-back and French terry knits for retail basics programs.</p>
+        <h3 class="text-2xl font-bold text-navy-950 mb-3" data-i18n="products.categories.cat4.title">Fleece &amp; Sweatshirts</h3>
+        <p class="text-slate-600 mb-4" data-i18n="products.categories.cat4.desc">Crewnecks, hoodies and fleece tops in brushed-back and French terry knits for retail basics programs.</p>
         <ul class="grid grid-cols-2 gap-2 text-sm text-slate-600">
-          <li>&bull; Flatlock seaming</li>
-          <li>&bull; Screen print &amp; embroidery</li>
-          <li>&bull; Garment dye available</li>
-          <li>&bull; Quantities by negotiation</li>
+          <li>&bull; <span data-i18n="products.categories.cat4.b1">Flatlock seaming</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat4.b2">Screen print &amp; embroidery</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat4.b3">Garment dye available</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat4.b4">Quantities by negotiation</span></li>
         </ul>
       </div>
     </div>
@@ -131,13 +141,13 @@
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=80" alt="Pants, shorts and skirts fabric" class="w-full h-72 object-cover" />
       <div>
-        <h3 class="text-2xl font-bold text-navy-950 mb-3">Pants, Shorts &amp; Skirts</h3>
-        <p class="text-slate-600 mb-4">Long pants, shorts and skirts in woven and stretch-blend fabrics for retail bottoms programs.</p>
+        <h3 class="text-2xl font-bold text-navy-950 mb-3" data-i18n="products.categories.cat5.title">Pants, Shorts &amp; Skirts</h3>
+        <p class="text-slate-600 mb-4" data-i18n="products.categories.cat5.desc">Long pants, shorts and skirts in woven and stretch-blend fabrics for retail bottoms programs.</p>
         <ul class="grid grid-cols-2 gap-2 text-sm text-slate-600">
-          <li>&bull; Pattern grading in-house</li>
-          <li>&bull; Zippers, rivets, hardware sourcing</li>
-          <li>&bull; Wash &amp; finishing on request</li>
-          <li>&bull; Quantities by negotiation</li>
+          <li>&bull; <span data-i18n="products.categories.cat5.b1">Pattern grading in-house</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat5.b2">Zippers, rivets, hardware sourcing</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat5.b3">Wash &amp; finishing on request</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat5.b4">Quantities by negotiation</span></li>
         </ul>
       </div>
     </div>
@@ -147,13 +157,13 @@
         <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=900&q=80" alt="Children's wear garments" class="w-full h-72 object-cover" />
       </div>
       <div class="md:order-1">
-        <h3 class="text-2xl font-bold text-navy-950 mb-3">Children's Wear</h3>
-        <p class="text-slate-600 mb-4">Knit and woven children's apparel produced to the same line standards and compliance review as our adult product lines.</p>
+        <h3 class="text-2xl font-bold text-navy-950 mb-3" data-i18n="products.categories.cat6.title">Children's Wear</h3>
+        <p class="text-slate-600 mb-4" data-i18n="products.categories.cat6.desc">Knit and woven children's apparel produced to the same line standards and compliance review as our adult product lines.</p>
         <ul class="grid grid-cols-2 gap-2 text-sm text-slate-600">
-          <li>&bull; Knit &amp; woven construction</li>
-          <li>&bull; Custom branding &amp; labeling</li>
-          <li>&bull; Print &amp; embroidery</li>
-          <li>&bull; Quantities by negotiation</li>
+          <li>&bull; <span data-i18n="products.categories.cat6.b1">Knit &amp; woven construction</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat6.b2">Custom branding &amp; labeling</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat6.b3">Print &amp; embroidery</span></li>
+          <li>&bull; <span data-i18n="products.categories.cat6.b4">Quantities by negotiation</span></li>
         </ul>
       </div>
     </div>
@@ -164,41 +174,41 @@
 <!-- Services / capability matrix -->
 <section class="bg-slate-50 py-20">
   <div class="max-w-7xl mx-auto px-6">
-    <p class="section-label mb-3">Services</p>
-    <h2 class="text-3xl font-bold text-navy-950 mb-12">Capability Matrix</h2>
+    <p class="section-label mb-3" data-i18n="products.matrix.kicker">Services</p>
+    <h2 class="text-3xl font-bold text-navy-950 mb-12" data-i18n="products.matrix.title">Capability Matrix</h2>
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-slate-200 border border-slate-200">
-      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Design Support</h3><p class="text-sm text-slate-600">Tech pack review, CAD pattern digitizing, grading</p></div>
-      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Sampling</h3><p class="text-sm text-slate-600">Proto, fit, and pre-production (PP) samples in 7&ndash;10 days</p></div>
-      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Material Sourcing</h3><p class="text-sm text-slate-600">Fabric &amp; trim sourcing, lab dips, bulk fabric inspection</p></div>
-      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Cutting &amp; Sewing</h3><p class="text-sm text-slate-600">Automated cutting, modular sewing lines, line balancing</p></div>
-      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Printing &amp; Embroidery</h3><p class="text-sm text-slate-600">Screen, sublimation, DTF print and multi-head embroidery</p></div>
-      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Washing &amp; Dyeing</h3><p class="text-sm text-slate-600">Garment dye and finishing services available on request</p></div>
-      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Quality Control</h3><p class="text-sm text-slate-600">Inline, end-line and AQL 2.5 final inspection</p></div>
-      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Packaging &amp; Logistics</h3><p class="text-sm text-slate-600">Retail-ready packing, polybagging, FOB/CIF/DDP shipping</p></div>
+      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.matrix.svc1Title">Design Support</h3><p class="text-sm text-slate-600" data-i18n="products.matrix.svc1Desc">Tech pack review, CAD pattern digitizing, grading</p></div>
+      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.matrix.svc2Title">Sampling</h3><p class="text-sm text-slate-600" data-i18n="products.matrix.svc2Desc">Proto, fit, and pre-production (PP) samples in 7&ndash;10 days</p></div>
+      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.matrix.svc3Title">Material Sourcing</h3><p class="text-sm text-slate-600" data-i18n="products.matrix.svc3Desc">Fabric &amp; trim sourcing, lab dips, bulk fabric inspection</p></div>
+      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.matrix.svc4Title">Cutting &amp; Sewing</h3><p class="text-sm text-slate-600" data-i18n="products.matrix.svc4Desc">Automated cutting, modular sewing lines, line balancing</p></div>
+      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.matrix.svc5Title">Printing &amp; Embroidery</h3><p class="text-sm text-slate-600" data-i18n="products.matrix.svc5Desc">Screen, sublimation, DTF print and multi-head embroidery</p></div>
+      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.matrix.svc6Title">Washing &amp; Dyeing</h3><p class="text-sm text-slate-600" data-i18n="products.matrix.svc6Desc">Garment dye and finishing services available on request</p></div>
+      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.matrix.svc7Title">Quality Control</h3><p class="text-sm text-slate-600" data-i18n="products.matrix.svc7Desc">Inline, end-line and AQL 2.5 final inspection</p></div>
+      <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.matrix.svc8Title">Packaging &amp; Logistics</h3><p class="text-sm text-slate-600" data-i18n="products.matrix.svc8Desc">Retail-ready packing, polybagging, FOB/CIF/DDP shipping</p></div>
     </div>
   </div>
 </section>
 
 <!-- Equipment -->
 <section class="max-w-7xl mx-auto px-6 py-20">
-  <p class="section-label mb-3">Equipment</p>
-  <h2 class="text-3xl font-bold text-navy-950 mb-12">Manufacturing Equipment</h2>
+  <p class="section-label mb-3" data-i18n="products.equipment.kicker">Equipment</p>
+  <h2 class="text-3xl font-bold text-navy-950 mb-12" data-i18n="products.equipment.title">Manufacturing Equipment</h2>
   <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-slate-200 border border-slate-200">
-    <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Cutting</h3><p class="text-sm text-slate-600">Computerized multi-ply fabric cutting</p></div>
-    <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Sewing</h3><p class="text-sm text-slate-600">Lockstitch, overlock and flatlock lines across both plants</p></div>
-    <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Embroidery &amp; Print</h3><p class="text-sm text-slate-600">Multi-head computerized embroidery, screen print</p></div>
-    <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1">Finishing</h3><p class="text-sm text-slate-600">Steam pressing and finishing prior to packing</p></div>
+    <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.equipment.eq1Title">Cutting</h3><p class="text-sm text-slate-600" data-i18n="products.equipment.eq1Desc">Computerized multi-ply fabric cutting</p></div>
+    <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.equipment.eq2Title">Sewing</h3><p class="text-sm text-slate-600" data-i18n="products.equipment.eq2Desc">Lockstitch, overlock and flatlock lines across both plants</p></div>
+    <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.equipment.eq3Title">Embroidery &amp; Print</h3><p class="text-sm text-slate-600" data-i18n="products.equipment.eq3Desc">Multi-head computerized embroidery, screen print</p></div>
+    <div class="bg-white p-6"><h3 class="font-bold text-navy-950 mb-1" data-i18n="products.equipment.eq4Title">Finishing</h3><p class="text-sm text-slate-600" data-i18n="products.equipment.eq4Desc">Steam pressing and finishing prior to packing</p></div>
   </div>
-  <p class="text-sm text-slate-500 mt-6">Specific machine counts and line capacity are confirmed per order during the costing and planning stage &mdash; contact us for a capacity check against your delivery window.</p>
+  <p class="text-sm text-slate-500 mt-6" data-i18n="products.equipment.note">Specific machine counts and line capacity are confirmed per order during the costing and planning stage &mdash; contact us for a capacity check against your delivery window.</p>
 </section>
 
 <section class="bg-navy-950">
   <div class="max-w-7xl mx-auto px-6 py-16 flex flex-wrap items-center justify-between gap-6">
     <div>
-      <h2 class="text-2xl md:text-3xl font-bold text-white">Have a tech pack ready?</h2>
-      <p class="text-slate-400 mt-2">Send specs and target quantities for a costing within 48 hours.</p>
+      <h2 class="text-2xl md:text-3xl font-bold text-white" data-i18n="products.cta.title">Have a tech pack ready?</h2>
+      <p class="text-slate-400 mt-2" data-i18n="products.cta.subtitle">Send specs and target quantities for a costing within 48 hours.</p>
     </div>
-    <a href="./contact.html" class="btn-primary whitespace-nowrap">Request a Quote</a>
+    <a href="./contact.html" class="btn-primary whitespace-nowrap" data-i18n="products.cta.button">Request a Quote</a>
   </div>
 </section>
 
@@ -209,19 +219,19 @@
         <div class="w-9 h-9 bg-amber-600 flex items-center justify-center font-bold text-white text-sm">HB</div>
         <p class="text-white font-bold">Ha Bac Garment</p>
       </div>
-      <p>Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
+      <p data-i18n="common.footer.tagline">Export garment manufacturer headquartered in Bắc Giang Province, Vietnam, producing for international brands since 2002.</p>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Company</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.companyHeading">Company</p>
       <ul class="space-y-2">
-        <li><a href="./about.html" class="hover:text-white">About Us</a></li>
-        <li><a href="./products.html" class="hover:text-white">Capabilities</a></li>
-        <li><a href="./process.html" class="hover:text-white">Production Process</a></li>
-        <li><a href="./certifications.html" class="hover:text-white">Certifications</a></li>
+        <li><a href="./about.html" class="hover:text-white" data-i18n="common.footer.aboutUs">About Us</a></li>
+        <li><a href="./products.html" class="hover:text-white" data-i18n="common.footer.capabilities">Capabilities</a></li>
+        <li><a href="./process.html" class="hover:text-white" data-i18n="common.footer.process">Production Process</a></li>
+        <li><a href="./certifications.html" class="hover:text-white" data-i18n="common.footer.certifications">Certifications</a></li>
       </ul>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Head Office</p>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.headOffice">Head Office</p>
       <address class="not-italic space-y-1">
         <p>Đình Trám, Hồng Thái Ward</p>
         <p>Việt Yên District, Bắc Giang Province, Vietnam</p>
@@ -230,18 +240,19 @@
       </address>
     </div>
     <div>
-      <p class="text-white font-semibold mb-4">Get a Quote</p>
-      <p class="mb-4">Tell us about your style, quantity and timeline.</p>
-      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm">Start an RFQ</a>
+      <p class="text-white font-semibold mb-4" data-i18n="common.footer.getQuoteHeading">Get a Quote</p>
+      <p class="mb-4" data-i18n="common.footer.getQuoteText">Tell us about your style, quantity and timeline.</p>
+      <a href="./contact.html" class="btn-outline-navy !border-white/30 !text-white hover:!bg-white/10 text-sm" data-i18n="common.footer.startRfq">Start an RFQ</a>
     </div>
   </div>
   <div class="border-t border-white/10">
     <div class="max-w-7xl mx-auto px-6 py-6 flex flex-wrap justify-between gap-2 text-xs">
-      <p>&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
+      <p data-i18n="common.footer.copyright">&copy; 2026 Ha Bac Export Garment Joint Stock Company. All rights reserved.</p>
       <p>Đình Trám, Việt Yên, Bắc Giang Province, Vietnam</p>
     </div>
   </div>
 </footer>
 
+<script src="./js/i18n.js"></script>
 </body>
 </html>
